@@ -286,6 +286,54 @@ Used only for the RTX 5070 Ti standard 16 GB memory specification. This does not
 
 The repository LICENSE contains the official text. This license applies to original project content and does not relicense cited external work.
 
+### R34. Optimized arrays for electrical resistivity tomography survey using Bayesian experimental design
+
+Qiang, S., Shi, X., Kang, X., and Revil, A. (2022). Geophysics, 87(4), E189-E203. DOI: 10.1190/geo2021-0408.1.
+
+[Original paper](https://doi.org/10.1190/geo2021-0408.1) | [Author-uploaded manuscript](https://www.researchgate.net/publication/359357143_Optimized_arrays_for_electrical_resistivity_tomography_survey_using_Bayesian_experimental_design)
+
+Reviewed in the focused follow-up through the author-uploaded manuscript. Reports target-specific Bayesian survey design, superposition-based response reuse, and synthetic comparisons. These are existing precedents rather than OpenSubsurface inventions. Publisher access was unavailable during the follow-up.
+
+### R35. Laplace-based strategies for Bayesian optimal experimental design with nuisance uncertainty
+
+Bartuska, A., Espath, L., and Tempone, R. (2025 issue; published online December 13, 2024). Statistics and Computing, 35, 12. DOI: 10.1007/s11222-024-10544-z.
+
+[Original open-access paper](https://doi.org/10.1007/s11222-024-10544-z)
+
+Reviewed original article sections on marginalized nuisance uncertainty and numerical EIT examples. Relevant mathematical precedent, not a direct surface-geophysical validation.
+
+### R36. A method of fast, sequential experimental design for linearized geophysical inverse problems
+
+Coles, D. A., and Morgan, F. D. (2009). Geophysical Journal International, 178(1), 145-158. DOI: 10.1111/j.1365-246X.2009.04156.x.
+
+[Original paper](https://academic.oup.com/gji/article/178/1/145/2065780)
+
+Reviewed original article material on efficient determinant-based design and the limited number of independent electrical observations. Sequential design and response redundancy are established prior art.
+
+### R37. Comparing well and geophysical data for temperature monitoring within a Bayesian experimental design framework
+
+Thibaut et al. (2022). Water Resources Research, 58(11), e2022WR033045. DOI: 10.1029/2022WR033045.
+
+[Original paper](https://doi.org/10.1029/2022WR033045)
+
+Reviewed original article sections on Bayesian evidential learning, observation combinations, and protocol selection. Used to trace closer ERT design work and identify prediction-focused precedents.
+
+### R38. Optimal Bayesian experimental design for electrical impedance tomography in medical imaging
+
+Karimi, A., Taghizadeh, L., and Heitzinger, C. (2021). Computer Methods in Applied Mechanics and Engineering, 373, 113489. DOI: 10.1016/j.cma.2020.113489.
+
+[Original publisher record and abstract](https://doi.org/10.1016/j.cma.2020.113489)
+
+Reviewed abstract and article excerpts on expected-information-gain design. The medical EIT geometry differs from surface ERT.
+
+### R39. Bayesian experimental design for head imaging by electrical impedance tomography
+
+Hyvönen, N., Jääskeläinen, A., Maity, R., and Vavilov, A. (2023 preprint).
+
+[Author preprint](https://arxiv.org/abs/2312.10383)
+
+Reviewed author abstract describing offline and adaptive A-optimal electrode-placement methods. This is related prior art rather than a field geophysics result.
+
 ## Before asserting novelty
 
 Follow citations and citing papers for task-specific acquisition, nonlinear model discrimination, nuisance-aware survey design, and adaptive uncertainty estimation.

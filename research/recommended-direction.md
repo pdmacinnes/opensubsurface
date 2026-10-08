@@ -35,6 +35,8 @@ The team's initial contribution should be a verified acquisition method and meas
 
 Adaptivity, Bayesian inference, and nuisance modeling are not sufficient novelty claims. Before implementation, check for closer task-specific design methods and seek geophysical review of the draft protocol.
 
+The [focused follow-up review](prior-art-review.md) identifies Qiang et al. (2022) on target-specific Bayesian ERT and Bartuska, Espath, and Tempone (2025) on Bayesian design with nuisance uncertainty. Originality is unconfirmed. The proposed next step is the [observability pilot specification](../specs/ert-observability-pilot.md), which tests the information in a restricted geometry family before adaptive algorithm development.
+
 ## Scientific claim boundary
 
 The initial task concerns electrical geometry. It must distinguish detection, localization, shape recovery, and material identification.
