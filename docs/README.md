@@ -6,6 +6,8 @@ OpenSubsurface is an independent, civilian research project investigating access
 
 The project is in literature review and experiment-design stages. No experimental software, hardware validation, or mapping results have been produced.
 
+Read the [initial research assessment](../research/initial-research-report.md), [draft experiment](../research/first-experiment.md), and [reproducibility requirements](reproducibility.md).
+
 ## Evidence conventions
 
 - **Established finding:** supported by a cited scientific result or documented technical capability. State the demonstrated conditions and limitations.

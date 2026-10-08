@@ -47,7 +47,9 @@ The initial hypothesis concerns selected shallow electrical anomaly geometries. 
 | [experiments/](experiments/) | Future simulations, raw measurements, and experimental results |
 | [docs/](docs/) | Project status, evidence conventions, and reproducibility documentation |
 
-Research documents are introduced through pull requests. The initial scaffold contains no experimental implementation.
+Start with the [initial research report](research/initial-research-report.md), [candidate comparison](research/candidate-approaches.md), and [annotated references](research/references.md).
+
+The [recommended direction](research/recommended-direction.md) and [draft first experiment](research/first-experiment.md) define the proposed next research step. No experimental implementation is included.
 
 ## Scientific standards
 
