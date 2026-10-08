@@ -24,6 +24,8 @@ Adaptive ERT, Bayesian inversion, and optimized survey design already exist. We 
 
 The proposed experiment is a draft research protocol. Its numerical targets are hypotheses and design choices, not results.
 
+A [focused prior-art review](research/prior-art-review.md) identifies closer target-specific and nuisance-aware design methods. Originality remains unconfirmed. The proposed first implementation is a small [ERT observability pilot](specs/ert-observability-pilot.md), pending specification approval.
+
 ## Research goals
 
 - Identify physical observability limits separately from engineering and cost constraints.

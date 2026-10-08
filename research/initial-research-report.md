@@ -4,6 +4,8 @@ Research reviewed through October 8, 2026. This document records the initial lit
 
 Companion documents contain the [candidate comparison](candidate-approaches.md), [recommended direction](recommended-direction.md), [proposed first experiment](first-experiment.md), and [annotated references](references.md).
 
+Follow-up: the [focused prior-art review](prior-art-review.md) identifies closer target-specific and nuisance-aware electrical design precedents. Originality remains unconfirmed. The proposed first implementation is now the bounded [observability pilot](../specs/ert-observability-pilot.md), pending approval. The broader adaptive study below remains a research target.
+
 ## Executive assessment
 
 Making underground mapping more accessible is a credible research objective. A general, high-resolution three-dimensional map of arbitrary ground from inexpensive surface sensors is a much harder proposition.

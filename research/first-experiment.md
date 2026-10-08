@@ -4,6 +4,12 @@ Status: **draft protocol for review**. This document is not a completed preregis
 
 All numerical settings and thresholds below are proposed design choices. They are not measured instrument specifications or scientific results.
 
+## First implementation stage
+
+Before this broader adaptive study, the proposed first stage is the [observability pilot](../specs/ert-observability-pilot.md). It tests a small explicit geometry catalog with fixed measurements, numerical verification, and finite nuisance alternatives. It does not implement an adaptive policy or test the factor-of-two efficiency claim.
+
+The [focused prior-art review](prior-art-review.md) identifies target-specific Bayesian ERT and nuisance-aware electrical design as closer precedents. Any later comparison must include those approaches. Neither document is approval to implement software.
+
 ## Hypothesis
 
 For a specified family of shallow three-dimensional resistivity structures and realistic acquisition errors, ambiguity-focused adaptive measurement selection can reach a defined accuracy at at most half the acquisition cost of the strongest evaluated standard or optimized design.

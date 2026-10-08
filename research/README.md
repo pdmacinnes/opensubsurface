@@ -13,6 +13,8 @@ The project is in its initial research stage. No project experiment has been imp
 | [Recommended direction](recommended-direction.md) | Scoped adaptive ERT hypothesis and decision criteria |
 | [First experiment](first-experiment.md) | Draft falsifiable protocol, baselines, controls, and acceptance criteria |
 | [References](references.md) | Original papers and technical documentation with evidence notes |
+| [Focused prior-art review](prior-art-review.md) | Closer electrical survey-design precedents and limits on novelty claims |
+| [Observability pilot specification](../specs/ert-observability-pilot.md) | Proposed bounded feasibility study before adaptive acquisition |
 
 The numerical experiment targets are proposed thresholds. They are not results or an approved implementation scope.
 

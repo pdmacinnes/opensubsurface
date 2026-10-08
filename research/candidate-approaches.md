@@ -16,6 +16,8 @@ The ambition is a substantial efficiency gain while retaining calibrated uncerta
 
 **Novelty opportunity:** a specific method that resolves geometry ambiguities under realistic low-cost acquisition errors, tested against strong existing designs. Neither adaptivity nor Bayesian reasoning alone is novel.
 
+The [focused follow-up review](prior-art-review.md) identifies closer target-specific Bayesian ERT and nuisance-aware EIT design. Originality remains unconfirmed. The [observability pilot](../specs/ert-observability-pilot.md) is a proposed feasibility study rather than a new design method.
+
 **First software test:** compare sequential discrimination designs with standard arrays, static optimized designs, and adaptive resolution-based designs. Use independent solvers and ambiguous controls.
 
 **Falsification:** gains disappear against strong baselines, different forward models, or broader geology.
@@ -88,7 +90,7 @@ These are qualitative judgments from the reviewed evidence, not numerical scores
 
 | Direction | Scientific plausibility | Novelty opportunity | Potential impact | Simulation feasibility | Later cost driver |
 | --- | --- | --- | --- | --- | --- |
-| A. Adaptive ambiguity-focused ERT | High for observable tasks; gain magnitude unknown | Moderate and narrowly defined | High if survey time falls substantially | High | ERT acquisition and validation geometry |
+| A. Adaptive ambiguity-focused ERT | High for observable tasks; gain magnitude unknown | Unconfirmed; close prior art | High if survey time falls substantially | High | ERT acquisition and validation geometry |
 | B. Limited underground access | High for geometry benefit; economical deployment unknown | Moderate | Potentially very high | High for ERT, moderate for elastic imaging | Access and positioning |
 | C. Opportunistic seismic sources | High for broad structure; fine cavity geometry uncertain | Moderate | High if sparse sensors suffice | Moderate | Synchronization, coupling, array size |
 | D. Disagreement-tolerant fusion | High for reducing incorrect coupling | Moderate within an active field | High for reliable interpretation | Moderate | Paired measurements and validation |
