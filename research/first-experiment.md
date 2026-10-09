@@ -1,6 +1,6 @@
 # Proposed first experiment
 
-Status: **draft protocol for review**. This document is not a completed preregistration or approval to implement software. No experiments have been run and no hardware purchase is authorized by this protocol.
+Status: **draft protocol for review**. This broader adaptive study is not a completed preregistration or approval to implement an adaptive policy. Its smaller approved precursor produced [inconclusive numerical profiles](../experiments/ert-observability-pilot/results/2026-10-08/RESULTS.md). No hardware purchase is authorized by this protocol.
 
 All numerical settings and thresholds below are proposed design choices. They are not measured instrument specifications or scientific results.
 

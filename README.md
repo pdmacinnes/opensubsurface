@@ -16,15 +16,17 @@ OpenSubsurface asks where a small independent team can make a measurable contrib
 
 ## Current status
 
-**Research and experiment design only.**
+**Simulation pilot implemented; first numerical run inconclusive.**
 
 The initial literature assessment recommends studying adaptive electrical resistivity tomography (ERT). The proposed method would select measurements that distinguish competing three-dimensional anomaly geometries and account for acquisition uncertainty.
 
-Adaptive ERT, Bayesian inversion, and optimized survey design already exist. We have not invented a new sensing technology, demonstrated an efficiency gain, run a project experiment, or validated a mapping system.
+Adaptive ERT, Bayesian inversion, and optimized survey design already exist. We have not invented a new sensing technology, demonstrated an efficiency gain, or validated a mapping system.
+
+The [first numerical profiles](experiments/ert-observability-pilot/results/2026-10-08/RESULTS.md) failed the strict continuum-reference accuracy gate. The finest tested configuration also exceeded the projected compute budget. The full geometry and nuisance bank were not run. These results do not establish a physical observability limit.
 
 The proposed experiment is a draft research protocol. Its numerical targets are hypotheses and design choices, not results.
 
-A [focused prior-art review](research/prior-art-review.md) identifies closer target-specific and nuisance-aware design methods. Originality remains unconfirmed. The proposed first implementation is a small [ERT observability pilot](specs/ert-observability-pilot.md), pending specification approval.
+A [focused prior-art review](research/prior-art-review.md) identifies closer target-specific and nuisance-aware design methods. Originality remains unconfirmed. The [approved observability pilot](specs/ert-observability-pilot.md) is implemented with explicit numerical and resource gates. A [validation-only follow-up](specs/ert-numerical-validation.md) is proposed for approval.
 
 ## Research goals
 
@@ -51,7 +53,7 @@ The initial hypothesis concerns selected shallow electrical anomaly geometries. 
 
 Start with the [initial research report](research/initial-research-report.md), [candidate comparison](research/candidate-approaches.md), and [annotated references](research/references.md).
 
-The [recommended direction](research/recommended-direction.md) and [draft first experiment](research/first-experiment.md) define the proposed next research step. No experimental implementation is included.
+The [recommended direction](research/recommended-direction.md) and [broader experiment draft](research/first-experiment.md) describe the long-term research hypothesis. The [pilot README](experiments/ert-observability-pilot/README.md) gives reproduction commands, and the [feature map](FEATURE_MAP.md) records actual verification status.
 
 ## Scientific standards
 

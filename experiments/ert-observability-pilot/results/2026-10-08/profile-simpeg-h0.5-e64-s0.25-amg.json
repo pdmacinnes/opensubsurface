@@ -1,0 +1,87 @@
+{
+  "phase": "profile",
+  "solver": "simpeg",
+  "mesh": {
+    "cell_size": 0.5,
+    "extent": 64.0,
+    "electrode_cell_size": 0.25,
+    "linear_solver": "amg"
+  },
+  "records": {
+    "homogeneous": {
+      "solver": "simpeg",
+      "linear_solver": "amg",
+      "mesh": {
+        "cell_size": 0.5,
+        "extent": 64.0,
+        "electrode_cell_size": 0.25,
+        "linear_solver": "amg"
+      },
+      "cells": 119736,
+      "nodes": 116566,
+      "boundary": "flat surface with Robin outer boundary",
+      "source_count": 64,
+      "wall_seconds": 22.059938700054772,
+      "cpu_seconds": 16.640625,
+      "peak_rss_bytes": 771645440,
+      "sampling_seconds": 0.05,
+      "voxel_inclusion_volume_m3": 0.0,
+      "representation": "cell-center inclusion assignment",
+      "observations": 4096
+    },
+    "h1-ba32b0c77ef15679": {
+      "solver": "simpeg",
+      "linear_solver": "amg",
+      "mesh": {
+        "cell_size": 0.5,
+        "extent": 64.0,
+        "electrode_cell_size": 0.25,
+        "linear_solver": "amg"
+      },
+      "cells": 119736,
+      "nodes": 116566,
+      "boundary": "flat surface with Robin outer boundary",
+      "source_count": 64,
+      "wall_seconds": 18.39436619996559,
+      "cpu_seconds": 14.765625,
+      "peak_rss_bytes": 750796800,
+      "sampling_seconds": 0.05,
+      "voxel_inclusion_volume_m3": 16.125,
+      "representation": "cell-center inclusion assignment",
+      "observations": 4096
+    },
+    "h2-442c5c84ad5edfc4": {
+      "solver": "simpeg",
+      "linear_solver": "amg",
+      "mesh": {
+        "cell_size": 0.5,
+        "extent": 64.0,
+        "electrode_cell_size": 0.25,
+        "linear_solver": "amg"
+      },
+      "cells": 119736,
+      "nodes": 116566,
+      "boundary": "flat surface with Robin outer boundary",
+      "source_count": 64,
+      "wall_seconds": 18.481951199937612,
+      "cpu_seconds": 14.484375,
+      "peak_rss_bytes": 805896192,
+      "sampling_seconds": 0.05,
+      "voxel_inclusion_volume_m3": 14.0,
+      "representation": "cell-center inclusion assignment",
+      "observations": 4096
+    }
+  },
+  "construction_seconds": 2.2627845999086276,
+  "homogeneous_check": {
+    "rms": 2.8274543204846814,
+    "maximum": 26.603244830581076,
+    "passed": false
+  },
+  "projected_full_bank_seconds": 4980.565633586841,
+  "projection_basis": "mean of two inclusion solves times 270 distinct normalized-background models; excludes additional verification and plotting",
+  "projection_run_count": 2,
+  "resource_cap_passed": true,
+  "decision": "continue numerical verification",
+  "scientific_status": "not yet verified; no discrimination claim"
+}

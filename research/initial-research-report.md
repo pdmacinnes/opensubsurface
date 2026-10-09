@@ -1,6 +1,6 @@
 # Initial research assessment
 
-Research reviewed through October 8, 2026. This document records the initial literature assessment. No OpenSubsurface experiment has been implemented or run.
+Research reviewed through October 8, 2026. This document records the initial literature assessment before implementation. For subsequent numerical work, read the [first pilot results](../experiments/ert-observability-pilot/results/2026-10-08/RESULTS.md).
 
 Companion documents contain the [candidate comparison](candidate-approaches.md), [recommended direction](recommended-direction.md), [proposed first experiment](first-experiment.md), and [annotated references](references.md).
 
@@ -31,7 +31,7 @@ A factor-of-two reduction in acquisition cost is a research target, not a predic
 - **Established:** supported by a mathematical result, published experiment, or documented software capability. The finding applies within the conditions of that source.
 - **Hypothesis:** plausible and testable, but unverified in the proposed setting.
 - **Speculation:** a possible future extension without adequate evidence.
-- **Project result:** an outcome produced and verified by OpenSubsurface. There are no project results yet.
+- **Project result:** an outcome produced and verified by OpenSubsurface. No project results existed when this initial assessment was written. Later numerical profiles are reported separately with their verification limits.
 
 This is a focused literature assessment, not an exhaustive systematic review or proof of novelty. Some sources were available as abstracts, author manuscripts, or technical documentation. Their reported findings have not been independently reproduced by this project. The [reference notes](references.md) identify the evidence used and its limits.
 

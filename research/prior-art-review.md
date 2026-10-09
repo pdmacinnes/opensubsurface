@@ -1,6 +1,6 @@
 # Focused prior-art review for adaptive ERT
 
-Reviewed October 8, 2026. Status: literature findings and research judgment. No project experiment has been run.
+Reviewed October 8, 2026 before implementation. Status: literature findings and research judgment. See the subsequent [first numerical pilot record](../experiments/ert-observability-pilot/results/2026-10-08/RESULTS.md) for current execution status.
 
 ## Conclusion
 

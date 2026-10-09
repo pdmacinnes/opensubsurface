@@ -1,0 +1,79 @@
+{
+  "phase": "profile",
+  "solver": "simpeg",
+  "mesh": {
+    "cell_size": 0.5,
+    "extent": 64.0
+  },
+  "records": {
+    "homogeneous": {
+      "solver": "simpeg",
+      "linear_solver": "scipy SuperLU through pymatsolver.SolverLU",
+      "mesh": {
+        "cell_size": 0.5,
+        "extent": 64.0
+      },
+      "cells": 25264,
+      "nodes": 23721,
+      "boundary": "flat surface with Robin outer boundary",
+      "source_count": 64,
+      "wall_seconds": 4.440299300011247,
+      "cpu_seconds": 3.25,
+      "peak_rss_bytes": 528269312,
+      "sampling_seconds": 0.05,
+      "voxel_inclusion_volume_m3": 0.0,
+      "representation": "cell-center inclusion assignment",
+      "observations": 4096
+    },
+    "h1-ba32b0c77ef15679": {
+      "solver": "simpeg",
+      "linear_solver": "scipy SuperLU through pymatsolver.SolverLU",
+      "mesh": {
+        "cell_size": 0.5,
+        "extent": 64.0
+      },
+      "cells": 25264,
+      "nodes": 23721,
+      "boundary": "flat surface with Robin outer boundary",
+      "source_count": 64,
+      "wall_seconds": 4.1354691999731585,
+      "cpu_seconds": 3.140625,
+      "peak_rss_bytes": 793534464,
+      "sampling_seconds": 0.05,
+      "voxel_inclusion_volume_m3": 17.0,
+      "representation": "cell-center inclusion assignment",
+      "observations": 4096
+    },
+    "h2-442c5c84ad5edfc4": {
+      "solver": "simpeg",
+      "linear_solver": "scipy SuperLU through pymatsolver.SolverLU",
+      "mesh": {
+        "cell_size": 0.5,
+        "extent": 64.0
+      },
+      "cells": 25264,
+      "nodes": 23721,
+      "boundary": "flat surface with Robin outer boundary",
+      "source_count": 64,
+      "wall_seconds": 3.8575371000915766,
+      "cpu_seconds": 2.875,
+      "peak_rss_bytes": 768278528,
+      "sampling_seconds": 0.05,
+      "voxel_inclusion_volume_m3": 14.0,
+      "representation": "cell-center inclusion assignment",
+      "observations": 4096
+    }
+  },
+  "construction_seconds": 1.431964399991557,
+  "homogeneous_check": {
+    "rms": 2.0828040253719484,
+    "maximum": 36.31002057113678,
+    "passed": false
+  },
+  "projected_full_bank_seconds": 1080.4878149087308,
+  "projection_basis": "mean of two inclusion solves times 270 distinct normalized-background models; excludes additional verification and plotting",
+  "projection_run_count": 2,
+  "resource_cap_passed": true,
+  "decision": "continue numerical verification",
+  "scientific_status": "not yet verified; no discrimination claim"
+}
