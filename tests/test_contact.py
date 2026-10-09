@@ -5,7 +5,7 @@ import shutil
 import numpy as np
 import pytest
 
-from opensubsurface.contact import contact_voltage, green_and_gradient, mesh_axes, prepare, verify_axes, verify_reference, worker
+from opensubsurface.contact import contact_voltage, green_and_gradient, mesh_axes, prepare, primary_field_diagnostics, verify_axes, verify_reference, worker
 from opensubsurface.domain import electrodes
 from opensubsurface.validation import frozen_inputs
 
@@ -27,6 +27,26 @@ def test_reference_satisfies_independent_physical_identities():
     assert result["passed"]
     for values in result["identities"].values():
         assert max(values.values()) < 1e-10
+
+
+def test_flat_primary_diagnostics_never_query_optional_native_mesh():
+    class Matrix:
+        def rows(self):
+            return 64
+
+        def cols(self):
+            return 15376
+
+    class Core:
+        def primaryMesh(self):
+            pytest.fail("Optional null native mesh must not be queried")
+
+        def primaryPotential(self):
+            return Matrix()
+
+    result = primary_field_diagnostics(Core())
+    assert result["primaryMesh"]["status"] == "not queried"
+    assert result["primaryPotential"] == {"rows": 64, "columns": 15376}
 
 
 @pytest.mark.parametrize("points,source,left", [
@@ -56,6 +76,10 @@ def test_mesh_factors_are_nested_and_independent():
 def test_preparation_and_resource_stops_prevent_native_work(tmp_path):
     output = tmp_path / "study"
     prepare(output)
+    environment = json.loads((output / "environment.json").read_text())
+    assert environment["native_core_version"].startswith("libgimli-")
+    assert environment["native_binary_sha256"]
+    assert all(len(value) == 64 for value in environment["native_binary_sha256"].values())
     with pytest.raises(ValueError, match="fresh study"):
         prepare(output)
     (output / "resource-limit.json").write_text('{}')

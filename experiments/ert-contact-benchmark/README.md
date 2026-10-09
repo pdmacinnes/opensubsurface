@@ -54,3 +54,5 @@ Compiled calls may defer the Python monitor. Windows peak working-set observatio
 Load NPY files with `allow_pickle=False`. The environment records the executed source hashes. Local logs and downloaded upstream source remain ignored; they are not public experiment artifacts.
 
 Timings are single-run CPU feasibility observations. No GPU speedup, hardware sensing result, cross-library agreement, or acquisition-efficiency result is claimed.
+
+The subsequent [native solver review](../../research/native-solver-review.md) corrects interpretation of the historical Python version string. New preparation records include native build and binary/source hashes, and the adapter avoids an optional absent-mesh getter. These metadata changes do not replace the original voltages or their execution-source hashes. No P2 contact run is included in this benchmark record.

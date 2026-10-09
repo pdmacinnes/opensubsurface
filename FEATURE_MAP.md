@@ -21,5 +21,7 @@ This file records implemented research capabilities and their verification state
 | Controlled contact meshes | `contact.mesh_axes`, `verify_axes` | Published axis arrays, retained-knot tests, native cell/electrode checks | Implemented; four meshes preserve independent factors |
 | Bounded native contact study | `python -m opensubsurface.contact` | Twelve state records and raw voltages | Exercised; homogeneous controls pass, all heterogeneous gates fail |
 | Contact report reproduction | `python -m opensubsurface.contact_report` | Recomputed references, raw checksums, state and factor comparisons | Exercised; scientific outcome inconclusive |
+| Optional primary-field diagnostics | `contact.primary_field_diagnostics` | Regression check prohibits absent native-mesh getter call | Corrected; voltage calculation unchanged |
+| Native refinement/provenance review | `research/native-solver-review.md` | Installed-source hashes, native build/binary identities, construction-only probe | Direct/managed path distinction verified; P2 voltage accuracy untested |
 
 See the [pilot README](experiments/ert-observability-pilot/README.md), [first results](experiments/ert-observability-pilot/results/2026-10-08/RESULTS.md), and [numerical follow-up](experiments/ert-numerical-validation/README.md).
