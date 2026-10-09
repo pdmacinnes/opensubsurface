@@ -1,6 +1,6 @@
 # Spec: exact heterogeneous contact benchmark
 
-Status: proposed for approval. The literature and [mathematical reference](../research/contact-reference.md) have been reviewed. No benchmark software has been implemented or run. This is a new diagnostic physical model, explicitly separate from the original sphere pilot.
+Status: approved for implementation and execution on October 9, 2026. The [executed study](../experiments/ert-contact-benchmark/results/2026-10-09/RESULTS.md) is scientifically inconclusive. All twelve declared state solves completed; every homogeneous control passed and every heterogeneous accuracy gate failed. This is a diagnostic physical model explicitly separate from the original sphere pilot.
 
 ## Requirements & Goals
 
@@ -85,14 +85,14 @@ Publish one standalone result directory with a frozen configuration, references,
 
 ## Acceptance Criteria
 
-- [ ] The contact reference is traced to the inspected original equations and passes the literal and physical-identity checks before native execution.
-- [ ] The frozen electrodes, current, manifest hash, signed convention, and fixed tolerance scale match the original record.
-- [ ] Three physical states and four explicit nested mesh-axis sets are published; contact alignment and electrode placement checks pass.
-- [ ] Core-resolution and extent comparisons change only their stated factors, with saved axis vectors supporting that claim.
-- [ ] At most twelve native state solves are attempted, sequentially, with heterogeneous states gated by their own mesh's homogeneous control.
-- [ ] Raw analytical and numerical voltages reproduce the reported gates and comparisons; failed, skipped, and unavailable diagnostics are explicit.
-- [ ] Success requires the stated B/D exact-reference and extent-stability criteria for all three states; otherwise the report is inconclusive.
-- [ ] The two-hour and 8 GiB limits are monitored and the ledger includes failed/development work and monitoring limitations.
-- [ ] Existing pilot tests and report reproduction still pass, and new verification checks address literal values, both source sides, units, interface identities, mesh invariants, stop behavior, and report recreation.
-- [ ] No sphere-validation, physical-observability, mapping-resolution, acquisition-efficiency, or novelty claim exceeds this contact benchmark's evidence.
-- [ ] The implementation and result are committed to a review branch and pull request, with auto-merge off.
+- [x] The contact reference is traced to the inspected original equations and passes the literal and physical-identity checks before native execution.
+- [x] The frozen electrodes, current, manifest hash, signed convention, and fixed tolerance scale match the original record.
+- [x] Three physical states and four explicit nested mesh-axis sets are published; contact alignment and electrode placement checks pass.
+- [x] Core-resolution and extent comparisons change only their stated factors, with saved axis vectors supporting that claim.
+- [x] At most twelve native state solves are attempted, sequentially, with heterogeneous states gated by their own mesh's homogeneous control.
+- [x] Raw analytical and numerical voltages reproduce the reported gates and comparisons; failed, skipped, and unavailable diagnostics are explicit.
+- [x] Success requires the stated B/D exact-reference and extent-stability criteria for all three states; otherwise the report is inconclusive. This study reports inconclusive.
+- [x] The two-hour and 8 GiB limits are monitored and the ledger includes failed/development work and monitoring limitations.
+- [x] Existing pilot tests and report reproduction still pass, and new verification checks address literal values, both source sides, units, interface identities, mesh invariants, stop behavior, and report recreation.
+- [x] No sphere-validation, physical-observability, mapping-resolution, acquisition-efficiency, or novelty claim exceeds this contact benchmark's evidence.
+- [x] The implementation and result are committed to a review branch and pull request, with auto-merge off.

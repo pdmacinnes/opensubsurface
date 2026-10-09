@@ -32,3 +32,5 @@ jobs:
         run: python -m opensubsurface.report experiments/ert-observability-pilot/results/2026-10-08
       - name: Verify numerical follow-up evidence
         run: python -m opensubsurface.validation_report experiments/ert-numerical-validation/results/2026-10-08
+      - name: Verify exact-contact evidence
+        run: python -m opensubsurface.contact_report experiments/ert-contact-benchmark/results/2026-10-09

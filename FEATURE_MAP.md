@@ -17,5 +17,9 @@ This file records implemented research capabilities and their verification state
 | Tensor and separately graded octree meshes | `validation worker` | Published homogeneous voltage comparisons | Exercised; every tested SimPEG configuration fails strict reference gate |
 | Fitted sphere meshes | `PygimliConformingForward`, `validation conforming` | Exact electrode/region test, saved meshes, four-geometry refinement comparisons | Implemented; volume representation improves, response convergence unverified |
 | Numerical follow-up report | `python -m opensubsurface.validation_report` | Recomputed raw-data tables and resource ledger | Exercised; scientific outcome inconclusive |
+| Exact contact reference | `contact.green_and_gradient`, `contact_voltage` | Literal signed voltages, interface/current identities, reciprocity, and homogeneous reduction | Implemented; reference checks pass |
+| Controlled contact meshes | `contact.mesh_axes`, `verify_axes` | Published axis arrays, retained-knot tests, native cell/electrode checks | Implemented; four meshes preserve independent factors |
+| Bounded native contact study | `python -m opensubsurface.contact` | Twelve state records and raw voltages | Exercised; homogeneous controls pass, all heterogeneous gates fail |
+| Contact report reproduction | `python -m opensubsurface.contact_report` | Recomputed references, raw checksums, state and factor comparisons | Exercised; scientific outcome inconclusive |
 
 See the [pilot README](experiments/ert-observability-pilot/README.md), [first results](experiments/ert-observability-pilot/results/2026-10-08/RESULTS.md), and [numerical follow-up](experiments/ert-numerical-validation/README.md).

@@ -28,7 +28,7 @@ The proposed experiment is a draft research protocol. Its numerical targets are 
 
 A [focused prior-art review](research/prior-art-review.md) identifies closer target-specific and nuisance-aware design methods. Originality remains unconfirmed. The [approved observability pilot](specs/ert-observability-pilot.md) is implemented with explicit numerical and resource gates. The [approved validation-only follow-up](experiments/ert-numerical-validation/README.md) compares tensor and octree meshes, audits source handling, and checks four existing inclusion geometries. It found substantial mesh-dependent voltage and body-volume errors. Independent inclusion accuracy is still unverified; geometry discrimination and acquisition-efficiency claims remain premature.
 
-The [heterogeneous benchmark review](research/heterogeneous-benchmark-review.md) recommends an exact vertical-contact diagnostic before further sphere work. The [proposed contact spec](specs/ert-contact-benchmark.md) fixes the analytical reference, controlled mesh comparisons, resource budget, and failure criteria. It has not been implemented or run, and a contact pass would leave sphere accuracy unverified.
+The [heterogeneous benchmark review](research/heterogeneous-benchmark-review.md) led to an [approved exact-contact study](experiments/ert-contact-benchmark/README.md). Its twelve declared state solves completed within budget, but every heterogeneous reference check failed. The [published contact results](experiments/ert-contact-benchmark/results/2026-10-09/RESULTS.md) reinforce the need to validate heterogeneous numerical responses before interpreting geometry discrimination. Sphere accuracy remains unverified.
 
 ## Research goals
 
