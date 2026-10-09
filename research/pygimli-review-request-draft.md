@@ -1,6 +1,6 @@
 # Draft public pyGIMLi review request
 
-Status: prepared for the project owner to approve or edit. **Not posted or sent.** Proposed destination: the [pyGIMLi upstream repository](https://github.com/gimli-org/pyGIMLi).
+Status: Patrick approved publication. Posted as [pyGIMLi issue 979](https://github.com/gimli-org/pyGIMLi/issues/979), and the published title and message were verified against this draft. External technical review is pending.
 
 ## Proposed title
 
