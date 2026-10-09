@@ -1,0 +1,85 @@
+{
+  "native_voltage_solves": 0,
+  "posthoc_diagnostics_only": true,
+  "acceptance_gates_changed": false,
+  "null_definition_abs_v_at_most": 1e-14,
+  "null_count": 32,
+  "manifest_rows": 4096,
+  "boundary_coefficient": "facet-center alpha for common source center (0,0,0), k=0",
+  "boundary_metric": "midpoint quadrature of absolute continuous-analogue flux mismatch; not a voltage error, algebraic residual, or exact weak residual",
+  "boundary_by_mesh_state": [
+    {
+      "mesh": "A",
+      "state": "H",
+      "median_abs_flux_fraction": 9.3826118525165e-17,
+      "maximum_abs_flux_fraction": 1.00268209353834e-16
+    },
+    {
+      "mesh": "A",
+      "state": "C10",
+      "median_abs_flux_fraction": 0.057386887847525644,
+      "maximum_abs_flux_fraction": 0.08413824717888259
+    },
+    {
+      "mesh": "A",
+      "state": "C100",
+      "median_abs_flux_fraction": 0.06875062801535252,
+      "maximum_abs_flux_fraction": 0.10079928622420586
+    },
+    {
+      "mesh": "C",
+      "state": "H",
+      "median_abs_flux_fraction": 9.334584722065961e-17,
+      "maximum_abs_flux_fraction": 9.807619518860925e-17
+    },
+    {
+      "mesh": "C",
+      "state": "C10",
+      "median_abs_flux_fraction": 0.029796377131099436,
+      "maximum_abs_flux_fraction": 0.04467715669898312
+    },
+    {
+      "mesh": "C",
+      "state": "C100",
+      "median_abs_flux_fraction": 0.035696649830327054,
+      "maximum_abs_flux_fraction": 0.05352411842155404
+    }
+  ],
+  "source_raw_checksums": {
+    "A-C10-resistivity-ohm-m.npy": "b3ff8a28ec7d85392bf94ae738edcdd0020548bc9773475a3a1bf88e25e7b35e",
+    "A-C100-resistivity-ohm-m.npy": "0864f3b07eb61e9787b4a37bf17e8796bdfc45d7f878c7f84eb12d233a34af50",
+    "A-cell-centers-m.npy": "d7598337568c4395483f8443314724372db079d4573ec536898844ad3a2929d1",
+    "A-cell-correspondence.npy": "4c0819c831258b2c6c8c94f48405a51bcad9b8cfa97ab676156b42f96dce44d0",
+    "A-H-resistivity-ohm-m.npy": "3b9740656bb9528b6acb295bf68fbba9e19f51283866cb1565333c973f1625ef",
+    "A-x-axis-m.npy": "fb9dd394d6c445dddd505783e649b8b6e0e76411076ce106d76a9807f8711f6e",
+    "A-y-axis-m.npy": "fb9dd394d6c445dddd505783e649b8b6e0e76411076ce106d76a9807f8711f6e",
+    "A-z-axis-m.npy": "dede8adb5427007a2ddbce1517ab61eab9a42745e81efe61de7a3d9abede996e",
+    "C-C10-resistivity-ohm-m.npy": "08f0b3fb0d89a2b767ddf6c58fd81d17c4566983188a11d7c3239f224b15456e",
+    "C-C100-resistivity-ohm-m.npy": "9c3a03f6f92460596540b810dc438147ce3d1e2359fb120321498dd874246697",
+    "C-cell-centers-m.npy": "4bdd425b24c50b3ba073fdbbf6557c0981515acfd7c3c5d42e4b5be44dfb0307",
+    "C-cell-correspondence.npy": "63a0c8839cd6b3f122b55fcc25d070ca48f3bffa2496a3f75737acd869652552",
+    "C-H-resistivity-ohm-m.npy": "e49db553c19097a299b6e4446e4e03d5e21c3c1fd7b1234b7fde0b78ce5beaf0",
+    "C-x-axis-m.npy": "f5cc982c463f6ab57d02e8257c767801615e47a0749bc6ac626102a2d03a19c3",
+    "C-y-axis-m.npy": "f5cc982c463f6ab57d02e8257c767801615e47a0749bc6ac626102a2d03a19c3",
+    "C-z-axis-m.npy": "ae63fa3c4d4a9d12c087b96d67473bf9eb06ee77d1359295554758732c43db4c",
+    "C10-reference-v.npy": "7e7909e6132c8a7ac2a5931927207ad8a99f1d6258acbb774a55ee5e74f251f6",
+    "C100-reference-v.npy": "eb6e40ea3f5250e4365c90bc019f8f130f67ae253845c53638cf9b741d6c378e",
+    "fixed-sigma-v.npy": "4ebe3ff343f30a7607650a49f440cdaeb9ff4d18328f980c5b81754080c80800",
+    "H-reference-v.npy": "91ac03dd1a554a0e8fd4176c3755b4895966485a24ad2171f6c2d07c83f9ce48",
+    "linear-A-C10-voltage-v.npy": "d1aeb63c635e737677f5196052a89975a75b78a294b3433c45643a6b311e759e",
+    "linear-A-C100-voltage-v.npy": "c27f69f6f8f190e0f8a989699482759ac1703731b8f7746e86fb2960c6fe472c",
+    "linear-A-H-voltage-v.npy": "4e2e228a3dfec3a5efd7f35b257fbb795a5719e891d120af4845c8c1f1478908",
+    "linear-C-C10-voltage-v.npy": "06ce3218b4b5c2a566625fabd2333dafd5f622d9fb41821740cabb933e847403",
+    "linear-C-C100-voltage-v.npy": "26a869413ef8d42d79403f8e63e78c8dee6fa9d194d281576bfec26c46a1f535",
+    "linear-C-H-voltage-v.npy": "5ce5892bc3421fa8009b60657c96c5f24d7a1de940f81d1ed3f674c8140775c8",
+    "p2-A-C10-voltage-v.npy": "00f3f4c4f3860293f1e4b0e1a91b5c96484781103bce8131a04f30e4df1632f9",
+    "p2-A-C100-voltage-v.npy": "c571125da211f17b4b894e9622854022a5b7a20393be2cacf909e0295d31e903",
+    "p2-A-H-voltage-v.npy": "60c53c54b04384eec33e7cca288920f186329f11b31442167ffb1561c7913fb2",
+    "p2-C-C10-voltage-v.npy": "acab08eb346db35fb8a7b35b52534254ea79e0a6796179aedb4e8e042ae728f0",
+    "p2-C-C100-voltage-v.npy": "45c9a07055415317b4c1276af7d843f1646117ce285b4e23eabae649053cc1b1",
+    "p2-C-H-voltage-v.npy": "f118fbbced8961c34b3ff7ffc161be4ba300377919086e4e020f6cf455ebdc3b"
+  },
+  "source_center_status": "inferred from inspected code for the declared valid symmetric sensors; not independently logged in original native runs",
+  "continuous_boundary_analogue_is_exact_discrete_residual": false,
+  "external_professional_review_obtained": false
+}

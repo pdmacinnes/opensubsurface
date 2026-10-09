@@ -1,0 +1,222 @@
+{
+  "native_solves": 0,
+  "posthoc_only": true,
+  "summaries": [
+    {
+      "transform": "translation_y",
+      "pair_count": 8,
+      "method": "linear",
+      "mesh": "A",
+      "state": "H",
+      "maximum_absolute_difference_v": 2.6020852139652106e-18,
+      "maximum_normalized_difference": 2.2209945688699803e-13
+    },
+    {
+      "transform": "translation_y",
+      "pair_count": 8,
+      "method": "linear",
+      "mesh": "A",
+      "state": "C10",
+      "maximum_absolute_difference_v": 5.085478557198325e-05,
+      "maximum_normalized_difference": 2.795583199008145
+    },
+    {
+      "transform": "translation_y",
+      "pair_count": 8,
+      "method": "linear",
+      "mesh": "A",
+      "state": "C100",
+      "maximum_absolute_difference_v": 0.0006038261815073764,
+      "maximum_normalized_difference": 33.193460736431405
+    },
+    {
+      "transform": "translation_y",
+      "pair_count": 8,
+      "method": "linear",
+      "mesh": "C",
+      "state": "H",
+      "maximum_absolute_difference_v": 1.734723475976807e-18,
+      "maximum_normalized_difference": 1.291231349152194e-13
+    },
+    {
+      "transform": "translation_y",
+      "pair_count": 8,
+      "method": "linear",
+      "mesh": "C",
+      "state": "C10",
+      "maximum_absolute_difference_v": 5.031439216058534e-05,
+      "maximum_normalized_difference": 2.7658767569345604
+    },
+    {
+      "transform": "translation_y",
+      "pair_count": 8,
+      "method": "linear",
+      "mesh": "C",
+      "state": "C100",
+      "maximum_absolute_difference_v": 0.0005974227384236324,
+      "maximum_normalized_difference": 32.8414514279784
+    },
+    {
+      "transform": "translation_y",
+      "pair_count": 8,
+      "method": "p2",
+      "mesh": "A",
+      "state": "H",
+      "maximum_absolute_difference_v": 8.673617379884035e-18,
+      "maximum_normalized_difference": 2.220147669129706e-12
+    },
+    {
+      "transform": "translation_y",
+      "pair_count": 8,
+      "method": "p2",
+      "mesh": "A",
+      "state": "C10",
+      "maximum_absolute_difference_v": 2.6960447141229776e-06,
+      "maximum_normalized_difference": 0.0711404361883725
+    },
+    {
+      "transform": "translation_y",
+      "pair_count": 8,
+      "method": "p2",
+      "mesh": "A",
+      "state": "C100",
+      "maximum_absolute_difference_v": 3.636200713982851e-05,
+      "maximum_normalized_difference": 0.95948299190342
+    },
+    {
+      "transform": "translation_y",
+      "pair_count": 8,
+      "method": "p2",
+      "mesh": "C",
+      "state": "H",
+      "maximum_absolute_difference_v": 1.1492543028346347e-17,
+      "maximum_normalized_difference": 2.1092038031537413e-12
+    },
+    {
+      "transform": "translation_y",
+      "pair_count": 8,
+      "method": "p2",
+      "mesh": "C",
+      "state": "C10",
+      "maximum_absolute_difference_v": 2.608508191910726e-06,
+      "maximum_normalized_difference": 0.06883061308344728
+    },
+    {
+      "transform": "translation_y",
+      "pair_count": 8,
+      "method": "p2",
+      "mesh": "C",
+      "state": "C100",
+      "maximum_absolute_difference_v": 3.537076578526491e-05,
+      "maximum_normalized_difference": 0.933327141459913
+    },
+    {
+      "transform": "reflection_y",
+      "pair_count": 3,
+      "method": "linear",
+      "mesh": "A",
+      "state": "H",
+      "maximum_absolute_difference_v": 1.5178830414797062e-18,
+      "maximum_normalized_difference": 1.3235882399961162e-13
+    },
+    {
+      "transform": "reflection_y",
+      "pair_count": 3,
+      "method": "linear",
+      "mesh": "A",
+      "state": "C10",
+      "maximum_absolute_difference_v": 6.938893903907228e-18,
+      "maximum_normalized_difference": 1.058870591996893e-12
+    },
+    {
+      "transform": "reflection_y",
+      "pair_count": 3,
+      "method": "linear",
+      "mesh": "A",
+      "state": "C100",
+      "maximum_absolute_difference_v": 3.729655473350135e-17,
+      "maximum_normalized_difference": 7.451915469251541e-12
+    },
+    {
+      "transform": "reflection_y",
+      "pair_count": 3,
+      "method": "linear",
+      "mesh": "C",
+      "state": "H",
+      "maximum_absolute_difference_v": 1.1926223897340549e-18,
+      "maximum_normalized_difference": 1.81993382999466e-13
+    },
+    {
+      "transform": "reflection_y",
+      "pair_count": 3,
+      "method": "linear",
+      "mesh": "C",
+      "state": "C10",
+      "maximum_absolute_difference_v": 2.8189256484623115e-18,
+      "maximum_normalized_difference": 5.632261691876164e-13
+    },
+    {
+      "transform": "reflection_y",
+      "pair_count": 3,
+      "method": "linear",
+      "mesh": "C",
+      "state": "C100",
+      "maximum_absolute_difference_v": 4.85722573273506e-17,
+      "maximum_normalized_difference": 7.412094143978252e-12
+    },
+    {
+      "transform": "reflection_y",
+      "pair_count": 3,
+      "method": "p2",
+      "mesh": "A",
+      "state": "H",
+      "maximum_absolute_difference_v": 3.0791341698588326e-17,
+      "maximum_normalized_difference": 2.355355955366144e-12
+    },
+    {
+      "transform": "reflection_y",
+      "pair_count": 3,
+      "method": "p2",
+      "mesh": "A",
+      "state": "C10",
+      "maximum_absolute_difference_v": 1.1563497270720285e-05,
+      "maximum_normalized_difference": 1.7645819881620355
+    },
+    {
+      "transform": "reflection_y",
+      "pair_count": 3,
+      "method": "p2",
+      "mesh": "A",
+      "state": "C100",
+      "maximum_absolute_difference_v": 0.00013878279055282855,
+      "maximum_normalized_difference": 21.17816148030545
+    },
+    {
+      "transform": "reflection_y",
+      "pair_count": 3,
+      "method": "p2",
+      "mesh": "C",
+      "state": "H",
+      "maximum_absolute_difference_v": 2.7972416050126014e-17,
+      "maximum_normalized_difference": 2.13972477635375e-12
+    },
+    {
+      "transform": "reflection_y",
+      "pair_count": 3,
+      "method": "p2",
+      "mesh": "C",
+      "state": "C10",
+      "maximum_absolute_difference_v": 1.1563843349756374e-05,
+      "maximum_normalized_difference": 1.7646347995926317
+    },
+    {
+      "transform": "reflection_y",
+      "pair_count": 3,
+      "method": "p2",
+      "mesh": "C",
+      "state": "C100",
+      "maximum_absolute_difference_v": 0.0001387884040696119,
+      "maximum_normalized_difference": 21.179018099230873
+    }
+  ]
+}

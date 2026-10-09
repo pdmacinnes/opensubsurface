@@ -32,6 +32,8 @@ The [heterogeneous benchmark review](research/heterogeneous-benchmark-review.md)
 
 The [native solver review](research/native-solver-review.md) confirms that the tested direct path bypasses managed H2 refinement. It also corrects build-provenance interpretation and removes an unnecessary optional-mesh diagnostic call. The [approved P2 comparison](experiments/ert-p2-contact-comparison/README.md) completed all six declared solves. P2 lowered error, but missed the predefined reduction target and every heterogeneous accuracy gate. Sphere accuracy and acquisition efficiency remain unverified.
 
+The subsequent [error-budget and boundary audit](research/error-budget-boundary-review.md) finds concentrated weak-channel errors and unresolved reflection discrepancies in saved data. It documents the finite-boundary formulation and provides an [external-review brief](research/external-geophysical-review-brief.md). This is a literature/data audit, not external professional peer review; no new native sweep or threshold change is included.
+
 ## Research goals
 
 - Identify physical observability limits separately from engineering and cost constraints.
