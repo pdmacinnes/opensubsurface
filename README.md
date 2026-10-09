@@ -16,7 +16,7 @@ OpenSubsurface asks where a small independent team can make a measurable contrib
 
 ## Current status
 
-**Simulation pilot implemented; first numerical run inconclusive.**
+**Simulation pilot implemented; numerical validation remains inconclusive.**
 
 The initial literature assessment recommends studying adaptive electrical resistivity tomography (ERT). The proposed method would select measurements that distinguish competing three-dimensional anomaly geometries and account for acquisition uncertainty.
 
@@ -26,7 +26,7 @@ The [first numerical profiles](experiments/ert-observability-pilot/results/2026-
 
 The proposed experiment is a draft research protocol. Its numerical targets are hypotheses and design choices, not results.
 
-A [focused prior-art review](research/prior-art-review.md) identifies closer target-specific and nuisance-aware design methods. Originality remains unconfirmed. The [approved observability pilot](specs/ert-observability-pilot.md) is implemented with explicit numerical and resource gates. A [validation-only follow-up](specs/ert-numerical-validation.md) is proposed for approval.
+A [focused prior-art review](research/prior-art-review.md) identifies closer target-specific and nuisance-aware design methods. Originality remains unconfirmed. The [approved observability pilot](specs/ert-observability-pilot.md) is implemented with explicit numerical and resource gates. The [approved validation-only follow-up](experiments/ert-numerical-validation/README.md) compares tensor and octree meshes, audits source handling, and checks four existing inclusion geometries. It found substantial mesh-dependent voltage and body-volume errors. Independent inclusion accuracy is still unverified; geometry discrimination and acquisition-efficiency claims remain premature.
 
 ## Research goals
 

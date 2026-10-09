@@ -1,0 +1,8 @@
+{
+  "limit_seconds": 14400,
+  "completed_compute_seconds": 3499.445564899943,
+  "remaining_seconds": 10900.554435100057,
+  "development_retry_reserve_seconds": 600.0,
+  "accounting": "sum of recorded worker wall times; overlapping probes count twice; ten-minute allowance for uninstrumented development, smoke checks, and early failed meshing attempts",
+  "finalized": true
+}

@@ -1,0 +1,36 @@
+{
+  "files": [
+    "simpeg-homogeneous-h0.25-e128-s0.125-amg.npy",
+    "simpeg-homogeneous-h0.25-e128.npy",
+    "simpeg-homogeneous-h0.5-e64-s0.25-amg.npy",
+    "simpeg-homogeneous-h0.5-e64.npy"
+  ],
+  "correlations": [
+    [
+      1.0,
+      0.9544494135412928,
+      0.9951842618687035,
+      0.6740504531098818
+    ],
+    [
+      0.9544494135412928,
+      1.0,
+      0.9558250934206644,
+      0.8274756550628317
+    ],
+    [
+      0.9951842618687036,
+      0.9558250934206644,
+      1.0,
+      0.6758278268554395
+    ],
+    [
+      0.6740504531098818,
+      0.8274756550628318,
+      0.6758278268554395,
+      0.9999999999999998
+    ]
+  ],
+  "premise_under_test": "Local refinement alone controls the homogeneous response error",
+  "warning": "Role counts differ under canonicalization; sparse role samples do not establish electrode causality"
+}

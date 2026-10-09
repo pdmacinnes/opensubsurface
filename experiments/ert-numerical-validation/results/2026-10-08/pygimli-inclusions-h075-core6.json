@@ -1,0 +1,206 @@
+{
+  "label": "pygimli-inclusions-h075-core6",
+  "solver": "pygimli",
+  "settings": {
+    "cell_size": 0.75,
+    "extent": 64.0,
+    "electrode_cell_size": null,
+    "linear_solver": "amg",
+    "mesh_type": "tree",
+    "grading": 1.5,
+    "intermediate_cell_size": null,
+    "intermediate_extent": 32.0,
+    "central_extent": 12.0,
+    "source_batch_size": 64,
+    "source_ball_cell_size": null,
+    "source_ball_radius_ratio": 8.0,
+    "fem_core_extent": 6.0
+  },
+  "homogeneous_check": {
+    "rms": 9.146422610216307e-13,
+    "maximum": 1.479207409721622e-11,
+    "passed": true
+  },
+  "scope": "at most four existing representative inclusions; no classification or nuisance bank",
+  "models": {
+    "h1-ba32b0c77ef15679": {
+      "geometry": {
+        "kind": "H1",
+        "depth": 3.0,
+        "contrast": 10.0,
+        "separation": 0.0,
+        "orientation": 0.0,
+        "background": 100.0,
+        "shift_x": 0.0,
+        "shift_depth": 0.0
+      },
+      "resources": {
+        "solver": "pygimli",
+        "mesh": {
+          "cell_size": 0.75,
+          "extent": 64.0,
+          "electrode_cell_size": null,
+          "linear_solver": "amg",
+          "mesh_type": "tree",
+          "grading": 1.5,
+          "intermediate_cell_size": null,
+          "intermediate_extent": 32.0,
+          "central_extent": 12.0,
+          "source_batch_size": 64,
+          "source_ball_cell_size": null,
+          "source_ball_radius_ratio": 8.0,
+          "fem_core_extent": 6.0
+        },
+        "cells": 34656,
+        "nodes": 38025,
+        "boundary": "surface Neumann (-1), outer mixed (-2)",
+        "source_count": 64,
+        "singularity_removal": true,
+        "wall_seconds": 3.2817969999741763,
+        "cpu_seconds": 2.96875,
+        "peak_rss_bytes": 1968918528,
+        "sampling_seconds": 0.05,
+        "voxel_inclusion_volume_m3": 13.5,
+        "representation": "cell-center inclusion assignment",
+        "observations": 4096
+      },
+      "maximum_anomaly_v": 0.000188197603162789
+    },
+    "h1-f8fa2489359b0830": {
+      "geometry": {
+        "kind": "H1",
+        "depth": 7.0,
+        "contrast": 100.0,
+        "separation": 0.0,
+        "orientation": 0.0,
+        "background": 100.0,
+        "shift_x": 0.0,
+        "shift_depth": 0.0
+      },
+      "resources": {
+        "solver": "pygimli",
+        "mesh": {
+          "cell_size": 0.75,
+          "extent": 64.0,
+          "electrode_cell_size": null,
+          "linear_solver": "amg",
+          "mesh_type": "tree",
+          "grading": 1.5,
+          "intermediate_cell_size": null,
+          "intermediate_extent": 32.0,
+          "central_extent": 12.0,
+          "source_batch_size": 64,
+          "source_ball_cell_size": null,
+          "source_ball_radius_ratio": 8.0,
+          "fem_core_extent": 6.0
+        },
+        "cells": 34656,
+        "nodes": 38025,
+        "boundary": "surface Neumann (-1), outer mixed (-2)",
+        "source_count": 64,
+        "singularity_removal": true,
+        "wall_seconds": 4.121671000029892,
+        "cpu_seconds": 3.765625,
+        "peak_rss_bytes": 1969025024,
+        "sampling_seconds": 0.05,
+        "voxel_inclusion_volume_m3": 16.875,
+        "representation": "cell-center inclusion assignment",
+        "observations": 4096
+      },
+      "maximum_anomaly_v": 1.8971766516431496e-05
+    },
+    "h2-996eccf7a825f5aa": {
+      "geometry": {
+        "kind": "H2",
+        "depth": 3.0,
+        "contrast": 100.0,
+        "separation": 3.0,
+        "orientation": 0.0,
+        "background": 100.0,
+        "shift_x": 0.0,
+        "shift_depth": 0.0
+      },
+      "resources": {
+        "solver": "pygimli",
+        "mesh": {
+          "cell_size": 0.75,
+          "extent": 64.0,
+          "electrode_cell_size": null,
+          "linear_solver": "amg",
+          "mesh_type": "tree",
+          "grading": 1.5,
+          "intermediate_cell_size": null,
+          "intermediate_extent": 32.0,
+          "central_extent": 12.0,
+          "source_batch_size": 64,
+          "source_ball_cell_size": null,
+          "source_ball_radius_ratio": 8.0,
+          "fem_core_extent": 6.0
+        },
+        "cells": 34656,
+        "nodes": 38025,
+        "boundary": "surface Neumann (-1), outer mixed (-2)",
+        "source_count": 64,
+        "singularity_removal": true,
+        "wall_seconds": 3.5761469000717625,
+        "cpu_seconds": 3.171875,
+        "peak_rss_bytes": 1969397760,
+        "sampling_seconds": 0.05,
+        "voxel_inclusion_volume_m3": 6.75,
+        "representation": "cell-center inclusion assignment",
+        "observations": 4096
+      },
+      "maximum_anomaly_v": 9.180148381544677e-05
+    },
+    "h2-83c81c35bdbb7ddf": {
+      "geometry": {
+        "kind": "H2",
+        "depth": 7.0,
+        "contrast": 10.0,
+        "separation": 3.0,
+        "orientation": 0.0,
+        "background": 100.0,
+        "shift_x": 0.0,
+        "shift_depth": 0.0
+      },
+      "resources": {
+        "solver": "pygimli",
+        "mesh": {
+          "cell_size": 0.75,
+          "extent": 64.0,
+          "electrode_cell_size": null,
+          "linear_solver": "amg",
+          "mesh_type": "tree",
+          "grading": 1.5,
+          "intermediate_cell_size": null,
+          "intermediate_extent": 32.0,
+          "central_extent": 12.0,
+          "source_batch_size": 64,
+          "source_ball_cell_size": null,
+          "source_ball_radius_ratio": 8.0,
+          "fem_core_extent": 6.0
+        },
+        "cells": 34656,
+        "nodes": 38025,
+        "boundary": "surface Neumann (-1), outer mixed (-2)",
+        "source_count": 64,
+        "singularity_removal": true,
+        "wall_seconds": 3.2171388999558985,
+        "cpu_seconds": 3.171875,
+        "peak_rss_bytes": 1969983488,
+        "sampling_seconds": 0.05,
+        "voxel_inclusion_volume_m3": 10.125,
+        "representation": "cell-center inclusion assignment",
+        "observations": 4096
+      },
+      "maximum_anomaly_v": 8.118116231871017e-06
+    }
+  },
+  "representative_ids": [
+    "h1-ba32b0c77ef15679",
+    "h1-f8fa2489359b0830",
+    "h2-996eccf7a825f5aa",
+    "h2-83c81c35bdbb7ddf"
+  ],
+  "worker_wall_seconds": 19.006724099977873
+}

@@ -10,6 +10,7 @@ The pilot uses Python 3.12 and the pinned environment in [requirements-lock.txt]
 | pyGIMLi | 1.6.1 | Independent finite-element framework | Apache 2.0 |
 | pgcore | 1.6.0 | pyGIMLi compiled core | Apache 2.0 |
 | PyAMG | 5.3.0 | Standard algebraic-multigrid preconditioner | MIT |
+| TetGen Python interface | 0.8.4 | Fitted tetrahedral meshes for numerical validation | Wrapper MIT; bundled TetGen has its own AGPLv3 notice |
 | NumPy | 2.5.3 | Arrays and deterministic survey generation | Composite open-source notices in distribution metadata |
 | SciPy | 1.18.1 | Sparse solves and Gaussian diagnostic | BSD-style license and bundled dependency notices |
 | Matplotlib | 3.11.2 | Scientific figures | Matplotlib license |
@@ -21,3 +22,7 @@ This table records the installed distribution metadata. Dependencies and bundled
 The tested pyGIMLi Python distribution reports version 1.6.1 while its runtime version string is an untagged build identifier. The published environment records distribution versions. Pinning pgcore separately preserves the observed compiled-core version.
 
 The original project code and generated research data are covered by the repository's Apache 2.0 license. That license does not relicense dependencies.
+
+The validation follow-up uses the [TetGen array API](https://github.com/pyvista/tetgen) with pyGIMLi sphere geometry and pyGIMLi's existing PDE solver. This adds a meshing dependency, not a custom forward solver. Read the distribution's wrapper license and bundled `tetgen-license`, and the [upstream licensing statement](https://github.com/TetGen/TetGen/blob/main/README.md). The project does not redistribute a bundled executable or change third-party licenses.
+
+PyVista and VTK were installed locally while diagnosing the older filename-based mesh bridge. The final array adapter does not require them; they are excluded from the reproducible dependency lock. No code or data from those diagnostic dependencies is copied into this repository.

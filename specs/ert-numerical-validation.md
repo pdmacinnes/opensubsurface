@@ -1,6 +1,6 @@
 # Spec: ERT numerical validation follow-up
 
-Status: proposed for approval. This follow-up has not been implemented or run. The original observability pilot stopped at its numerical and projected-compute gates.
+Status: approved on October 8, 2026 and completed with an inconclusive scientific outcome. The [published follow-up](../experiments/ert-numerical-validation/README.md) records the accepted scope and evidence. SimPEG's homogeneous gate still fails; four existing pyGIMLi inclusion geometries were checked only after that solver's own homogeneous gates passed. Independent inclusion accuracy remains unverified.
 
 ## Requirements & Goals
 
@@ -44,18 +44,20 @@ The original 810-state bank is not silently reduced. A future amendment may redu
 - Do not mix numerical error with assumed measurement noise.
 - Do not call a failed numerical configuration evidence that the ground geometry is unobservable.
 - Do not implement a custom PDE solver or accelerator if an existing-library approach fails.
-- No change to the physical model, covariance, candidate manifest, or acceptance thresholds is authorized by this proposed stage.
+- No change to the physical model, covariance, candidate manifest, or acceptance thresholds is authorized by this stage.
 - If source or boundary assumptions need a substantive change, document the reason and propose a further amendment.
 
 ## Acceptance Criteria
 
-- [ ] Numerical configurations, units, electrode placement, and source conventions are recorded.
-- [ ] The frozen manifest and analytic reference match the published original.
-- [ ] A passing homogeneous configuration has normalized RMS at most 0.1 and maximum at most 0.25, or the stage reports inconclusive.
-- [ ] Algebraic residual and continuum-reference error are reported separately.
-- [ ] Padding and remote grading are tested independently rather than attributing every improvement to cell size.
-- [ ] Inclusion comparisons are attempted only after the homogeneous gate passes.
-- [ ] No nuisance bank, adaptive acquisition, classification claim, or hardware work is included.
-- [ ] The four-hour and 8 GiB caps are enforced and recorded.
-- [ ] Reproduction commands and raw data support the actual next decision.
-- [ ] Any future geometry-bank amendment is presented separately before execution.
+- [x] Numerical configurations, units, electrode placement, and source conventions are recorded.
+- [x] The frozen manifest and analytic reference match the published original.
+- [x] A passing homogeneous configuration has normalized RMS at most 0.1 and maximum at most 0.25, or the stage reports inconclusive.
+- [x] Algebraic residual and continuum-reference error are reported separately. pyGIMLi equation residuals are not exposed by this adapter and are labeled unavailable.
+- [x] Padding and remote grading are tested independently rather than attributing every improvement to cell size.
+- [x] Inclusion comparisons are attempted only after the applicable homogeneous gate passes.
+- [x] No nuisance bank, adaptive acquisition, classification claim, or hardware work is included.
+- [x] The four-hour and 8 GiB caps are monitored, accepted peaks are recorded, and checks run after native calls. The README describes the monitoring limitation.
+- [x] Reproduction commands and raw data support the actual next decision.
+- [x] Any future geometry-bank amendment is presented separately before execution. No bank amendment was executed.
+
+Evidence is in the [results](../experiments/ert-numerical-validation/results/2026-10-08/RESULTS.md) and [raw-data tables](../experiments/ert-numerical-validation/results/2026-10-08/TABLES.md). A fitted-mesh dependency was added to avoid cell-center volume aliasing, using existing meshing and PDE libraries. The same four geometries and all original physical and statistical assumptions were retained.

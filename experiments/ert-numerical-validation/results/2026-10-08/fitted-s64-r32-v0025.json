@@ -1,0 +1,262 @@
+{
+  "label": "fitted-s64-r32-v0025",
+  "solver": "pygimli",
+  "settings": {
+    "cell_size": 0.5,
+    "extent": 64.0,
+    "electrode_cell_size": null,
+    "linear_solver": "amg",
+    "mesh_type": "tree",
+    "grading": 1.5,
+    "intermediate_cell_size": null,
+    "intermediate_extent": 32.0,
+    "central_extent": 12.0,
+    "source_batch_size": 64,
+    "source_ball_cell_size": null,
+    "source_ball_radius_ratio": 8.0,
+    "fem_core_extent": 12.0
+  },
+  "segments": 64,
+  "rings": 32,
+  "target_volume": 0.025,
+  "scope": "same four representative geometries; fitted-mesh validation",
+  "models": {
+    "h1-ba32b0c77ef15679": {
+      "geometry": {
+        "kind": "H1",
+        "depth": 3.0,
+        "contrast": 10.0,
+        "separation": 0.0,
+        "orientation": 0.0,
+        "background": 100.0,
+        "shift_x": 0.0,
+        "shift_depth": 0.0
+      },
+      "resources": {
+        "solver": "pygimli",
+        "mesh": {
+          "cell_size": 0.5,
+          "extent": 64.0,
+          "electrode_cell_size": null,
+          "linear_solver": "amg",
+          "mesh_type": "tree",
+          "grading": 1.5,
+          "intermediate_cell_size": null,
+          "intermediate_extent": 32.0,
+          "central_extent": 12.0,
+          "source_batch_size": 64,
+          "source_ball_cell_size": null,
+          "source_ball_radius_ratio": 8.0,
+          "fem_core_extent": 12.0
+        },
+        "cells": 93161,
+        "nodes": 15559,
+        "boundary": "surface Neumann (-1), outer mixed (-2)",
+        "source_count": 64,
+        "singularity_removal": true,
+        "geometry_representation": "conforming faceted sphere regions",
+        "segments": 64,
+        "rings": 32,
+        "target_tetrahedron_volume_m3": 0.025,
+        "mesh_generator": "TetGen through pyGIMLi",
+        "wall_seconds": 11.626857100054622,
+        "cpu_seconds": 10.59375,
+        "peak_rss_bytes": 3223842816,
+        "sampling_seconds": 0.05,
+        "voxel_inclusion_volume_m3": 14.080473019074528,
+        "representation": "conforming faceted sphere regions",
+        "observations": 4096
+      },
+      "construction": {
+        "wall_seconds": 5.972401999984868,
+        "cpu_seconds": 5.125,
+        "peak_rss_bytes": 916623360,
+        "sampling_seconds": 0.05
+      },
+      "homogeneous_check": {
+        "rms": 4.076427728737949e-13,
+        "maximum": 4.440892098500626e-12,
+        "passed": true
+      },
+      "maximum_anomaly_v": 0.000191910223316708
+    },
+    "h1-f8fa2489359b0830": {
+      "geometry": {
+        "kind": "H1",
+        "depth": 7.0,
+        "contrast": 100.0,
+        "separation": 0.0,
+        "orientation": 0.0,
+        "background": 100.0,
+        "shift_x": 0.0,
+        "shift_depth": 0.0
+      },
+      "resources": {
+        "solver": "pygimli",
+        "mesh": {
+          "cell_size": 0.5,
+          "extent": 64.0,
+          "electrode_cell_size": null,
+          "linear_solver": "amg",
+          "mesh_type": "tree",
+          "grading": 1.5,
+          "intermediate_cell_size": null,
+          "intermediate_extent": 32.0,
+          "central_extent": 12.0,
+          "source_batch_size": 64,
+          "source_ball_cell_size": null,
+          "source_ball_radius_ratio": 8.0,
+          "fem_core_extent": 12.0
+        },
+        "cells": 92880,
+        "nodes": 15471,
+        "boundary": "surface Neumann (-1), outer mixed (-2)",
+        "source_count": 64,
+        "singularity_removal": true,
+        "geometry_representation": "conforming faceted sphere regions",
+        "segments": 64,
+        "rings": 32,
+        "target_tetrahedron_volume_m3": 0.025,
+        "mesh_generator": "TetGen through pyGIMLi",
+        "wall_seconds": 12.530779000022449,
+        "cpu_seconds": 10.96875,
+        "peak_rss_bytes": 3226697728,
+        "sampling_seconds": 0.05,
+        "voxel_inclusion_volume_m3": 14.08048046070838,
+        "representation": "conforming faceted sphere regions",
+        "observations": 4096
+      },
+      "construction": {
+        "wall_seconds": 6.306102699949406,
+        "cpu_seconds": 5.53125,
+        "peak_rss_bytes": 3223842816,
+        "sampling_seconds": 0.05
+      },
+      "homogeneous_check": {
+        "rms": 3.288314836913965e-13,
+        "maximum": 4.440892098500626e-12,
+        "passed": true
+      },
+      "maximum_anomaly_v": 1.4963719822192953e-05
+    },
+    "h2-996eccf7a825f5aa": {
+      "geometry": {
+        "kind": "H2",
+        "depth": 3.0,
+        "contrast": 100.0,
+        "separation": 3.0,
+        "orientation": 0.0,
+        "background": 100.0,
+        "shift_x": 0.0,
+        "shift_depth": 0.0
+      },
+      "resources": {
+        "solver": "pygimli",
+        "mesh": {
+          "cell_size": 0.5,
+          "extent": 64.0,
+          "electrode_cell_size": null,
+          "linear_solver": "amg",
+          "mesh_type": "tree",
+          "grading": 1.5,
+          "intermediate_cell_size": null,
+          "intermediate_extent": 32.0,
+          "central_extent": 12.0,
+          "source_batch_size": 64,
+          "source_ball_cell_size": null,
+          "source_ball_radius_ratio": 8.0,
+          "fem_core_extent": 12.0
+        },
+        "cells": 181858,
+        "nodes": 30141,
+        "boundary": "surface Neumann (-1), outer mixed (-2)",
+        "source_count": 64,
+        "singularity_removal": true,
+        "geometry_representation": "conforming faceted sphere regions",
+        "segments": 64,
+        "rings": 32,
+        "target_tetrahedron_volume_m3": 0.025,
+        "mesh_generator": "TetGen through pyGIMLi",
+        "wall_seconds": 28.89919230004307,
+        "cpu_seconds": 25.375,
+        "peak_rss_bytes": 6214524928,
+        "sampling_seconds": 0.05,
+        "voxel_inclusion_volume_m3": 14.080485696308985,
+        "representation": "conforming faceted sphere regions",
+        "observations": 4096
+      },
+      "construction": {
+        "wall_seconds": 13.516879600007087,
+        "cpu_seconds": 11.90625,
+        "peak_rss_bytes": 3226697728,
+        "sampling_seconds": 0.05
+      },
+      "homogeneous_check": {
+        "rms": 4.934337393737558e-13,
+        "maximum": 6.661338147750939e-12,
+        "passed": true
+      },
+      "maximum_anomaly_v": 0.00020228054643146604
+    },
+    "h2-83c81c35bdbb7ddf": {
+      "geometry": {
+        "kind": "H2",
+        "depth": 7.0,
+        "contrast": 10.0,
+        "separation": 3.0,
+        "orientation": 0.0,
+        "background": 100.0,
+        "shift_x": 0.0,
+        "shift_depth": 0.0
+      },
+      "resources": {
+        "solver": "pygimli",
+        "mesh": {
+          "cell_size": 0.5,
+          "extent": 64.0,
+          "electrode_cell_size": null,
+          "linear_solver": "amg",
+          "mesh_type": "tree",
+          "grading": 1.5,
+          "intermediate_cell_size": null,
+          "intermediate_extent": 32.0,
+          "central_extent": 12.0,
+          "source_batch_size": 64,
+          "source_ball_cell_size": null,
+          "source_ball_radius_ratio": 8.0,
+          "fem_core_extent": 12.0
+        },
+        "cells": 186411,
+        "nodes": 30797,
+        "boundary": "surface Neumann (-1), outer mixed (-2)",
+        "source_count": 64,
+        "singularity_removal": true,
+        "geometry_representation": "conforming faceted sphere regions",
+        "segments": 64,
+        "rings": 32,
+        "target_tetrahedron_volume_m3": 0.025,
+        "mesh_generator": "TetGen through pyGIMLi",
+        "wall_seconds": 31.197778299916536,
+        "cpu_seconds": 26.265625,
+        "peak_rss_bytes": 6388076544,
+        "sampling_seconds": 0.05,
+        "voxel_inclusion_volume_m3": 14.080485696308987,
+        "representation": "conforming faceted sphere regions",
+        "observations": 4096
+      },
+      "construction": {
+        "wall_seconds": 15.370450300048105,
+        "cpu_seconds": 13.3125,
+        "peak_rss_bytes": 6214524928,
+        "sampling_seconds": 0.05
+      },
+      "homogeneous_check": {
+        "rms": 3.8640167071704075e-13,
+        "maximum": 7.993605777301129e-12,
+        "passed": true
+      },
+      "maximum_anomaly_v": 1.286394291115378e-05
+    }
+  },
+  "worker_wall_seconds": 204.98250939999707
+}

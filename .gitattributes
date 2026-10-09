@@ -1,3 +1,5 @@
 * text=auto eol=lf
 *.npy binary
 *.png binary
+*.bms binary
+*.zip binary

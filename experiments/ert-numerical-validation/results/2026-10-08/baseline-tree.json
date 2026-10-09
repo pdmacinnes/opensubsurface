@@ -1,0 +1,103 @@
+{
+  "label": "baseline-tree",
+  "solver": "simpeg",
+  "settings": {
+    "cell_size": 0.5,
+    "extent": 64.0,
+    "electrode_cell_size": null,
+    "linear_solver": "amg",
+    "mesh_type": "tree",
+    "grading": 1.5,
+    "intermediate_cell_size": null,
+    "intermediate_extent": 32.0
+  },
+  "manifest_sha256": "0b04f7711ccfb05c920d43e86f5c633d065eaba7e9fb089e6f90c6eca5a62b6a",
+  "resources": {
+    "solver": "simpeg",
+    "linear_solver": "amg",
+    "mesh": {
+      "cell_size": 0.5,
+      "extent": 64.0,
+      "electrode_cell_size": null,
+      "linear_solver": "amg",
+      "mesh_type": "tree",
+      "grading": 1.5,
+      "intermediate_cell_size": null,
+      "intermediate_extent": 32.0
+    },
+    "cells": 25264,
+    "nodes": 23721,
+    "boundary": "flat surface with Robin outer boundary",
+    "source_count": 64,
+    "wall_seconds": 2.5221863000188023,
+    "cpu_seconds": 2.453125,
+    "peak_rss_bytes": 271867904,
+    "sampling_seconds": 0.05,
+    "maximum_relative_equation_residual": 9.833595044592766e-11,
+    "voxel_inclusion_volume_m3": 0.0,
+    "representation": "cell-center inclusion assignment",
+    "observations": 4096
+  },
+  "construction": {
+    "wall_seconds": 0.611296399962157,
+    "cpu_seconds": 0.53125,
+    "peak_rss_bytes": 195178496,
+    "sampling_seconds": 0.05
+  },
+  "homogeneous_check": {
+    "rms": 2.0828040189378423,
+    "maximum": 36.31002006522931,
+    "passed": false
+  },
+  "audit": {
+    "maximum_coordinate_interpolation_error_m": 0.0,
+    "maximum_unit_source_injection_error_a": 0.0,
+    "maximum_reciprocity_error_v_at_1ma": 1.4853176466544937e-12,
+    "robin_reference_point_xy_m": [
+      0.0,
+      0.0
+    ],
+    "direct_dipole_check": {
+      "manifest_indices": [
+        0,
+        585,
+        1170,
+        1755,
+        2340,
+        2925,
+        3510,
+        4095
+      ],
+      "direct_voltage_v": [
+        -0.00023101606267254528,
+        0.0008725938140524549,
+        -0.004235860122749227,
+        -0.0006259010759783146,
+        -0.0008081770330726308,
+        0.00039418603594155305,
+        0.0039538938668585285,
+        0.001069778053541456
+      ],
+      "superposed_voltage_v": [
+        -0.00023101606258779217,
+        0.0008725938141382291,
+        -0.004235860121566903,
+        -0.0006259010763957771,
+        -0.000808177033611686,
+        0.00039418603580830157,
+        0.003953893866494621,
+        0.0010697780538851957
+      ],
+      "maximum_difference_v": 1.1823233364571806e-12,
+      "resources": {
+        "wall_seconds": 0.3195549000520259,
+        "cpu_seconds": 0.296875,
+        "peak_rss_bytes": 271867904,
+        "sampling_seconds": 0.05
+      }
+    }
+  },
+  "worker_wall_seconds": 3.4628185000037774,
+  "scope": "homogeneous validation only",
+  "recorded_at_utc": "2026-10-09T01:59:42Z"
+}
