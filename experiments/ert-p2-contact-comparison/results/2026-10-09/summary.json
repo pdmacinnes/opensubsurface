@@ -1,0 +1,172 @@
+{
+  "diagnostic_hypothesis": "not supported",
+  "contact_accuracy": "inconclusive",
+  "native_state_solve_attempts": 6,
+  "completed_states": 6,
+  "accounted_worker_seconds": 715.3567105999682,
+  "peak_rss_gib": 2.4915504455566406,
+  "resource_ok": true,
+  "valid_workers": true,
+  "development_allowance_seconds": 600.0,
+  "states": [
+    {
+      "mesh": "A",
+      "state": "H",
+      "status": "completed",
+      "rms": 3.609351693518918e-12,
+      "maximum": 3.4498045005219205e-11,
+      "passed": true
+    },
+    {
+      "mesh": "A",
+      "state": "C10",
+      "status": "completed",
+      "rms": 13.72234335830681,
+      "maximum": 703.5028549939524,
+      "passed": false
+    },
+    {
+      "mesh": "A",
+      "state": "C100",
+      "status": "completed",
+      "rms": 164.600481672789,
+      "maximum": 8471.204957336055,
+      "passed": false
+    },
+    {
+      "mesh": "C",
+      "state": "H",
+      "status": "completed",
+      "rms": 3.59063841718121e-12,
+      "maximum": 3.429540429942137e-11,
+      "passed": true
+    },
+    {
+      "mesh": "C",
+      "state": "C10",
+      "status": "completed",
+      "rms": 13.68703520832989,
+      "maximum": 703.4465174013196,
+      "passed": false
+    },
+    {
+      "mesh": "C",
+      "state": "C100",
+      "status": "completed",
+      "rms": 164.1968301468663,
+      "maximum": 8470.5315602705,
+      "passed": false
+    }
+  ],
+  "error_ratios": [
+    {
+      "mesh": "A",
+      "state": "C10",
+      "linear_rms": 52.28800622862042,
+      "p2_rms": 13.72234335830681,
+      "rms_ratio": 0.2624376859639321,
+      "linear_maximum": 2827.8487381299715,
+      "p2_maximum": 703.5028549939524,
+      "maximum_ratio": 0.24877669215757697
+    },
+    {
+      "mesh": "A",
+      "state": "C100",
+      "linear_rms": 625.9219713764342,
+      "p2_rms": 164.600481672789,
+      "rms_ratio": 0.2629728451788075,
+      "linear_maximum": 33878.1878528443,
+      "p2_maximum": 8471.204957336055,
+      "maximum_ratio": 0.25004893987046123
+    },
+    {
+      "mesh": "C",
+      "state": "C10",
+      "linear_rms": 52.31299144664358,
+      "p2_rms": 13.68703520832989,
+      "rms_ratio": 0.26163740267634905,
+      "linear_maximum": 2827.905258244005,
+      "p2_maximum": 703.4465174013196,
+      "maximum_ratio": 0.24875179794323327
+    },
+    {
+      "mesh": "C",
+      "state": "C100",
+      "linear_rms": 626.1958571103868,
+      "p2_rms": 164.1968301468663,
+      "rms_ratio": 0.2622132169710625,
+      "linear_maximum": 33878.86497500242,
+      "p2_maximum": 8470.5315602705,
+      "maximum_ratio": 0.2500240656385772
+    }
+  ],
+  "order_changes": [
+    {
+      "mesh": "A",
+      "state": "H",
+      "rms": 3.584785054135977e-12,
+      "maximum": 3.279559594826371e-11,
+      "passed": true
+    },
+    {
+      "mesh": "A",
+      "state": "C10",
+      "rms": 65.37477570775134,
+      "maximum": 3531.3515931239235,
+      "passed": false
+    },
+    {
+      "mesh": "A",
+      "state": "C100",
+      "rms": 783.5141365893372,
+      "maximum": 42349.392810180354,
+      "passed": false
+    },
+    {
+      "mesh": "C",
+      "state": "H",
+      "rms": 3.567545726448932e-12,
+      "maximum": 3.22286584984613e-11,
+      "passed": true
+    },
+    {
+      "mesh": "C",
+      "state": "C10",
+      "rms": 65.3752452490921,
+      "maximum": 3531.3517756453243,
+      "passed": false
+    },
+    {
+      "mesh": "C",
+      "state": "C100",
+      "rms": 783.519211533761,
+      "maximum": 42349.39653527292,
+      "passed": false
+    }
+  ],
+  "extent_changes": [
+    {
+      "state": "H",
+      "rms": 2.5850786250959836e-13,
+      "maximum": 3.3091663901940243e-12,
+      "passed": true
+    },
+    {
+      "state": "C10",
+      "rms": 0.9697277797623712,
+      "maximum": 11.013855458167338,
+      "passed": false
+    },
+    {
+      "state": "C100",
+      "rms": 11.24129296610675,
+      "maximum": 127.09242557813018,
+      "passed": false
+    }
+  ],
+  "worker_statuses": {
+    "A": "completed",
+    "C": "completed"
+  },
+  "sphere_accuracy": "unverified"
+}

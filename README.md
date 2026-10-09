@@ -30,7 +30,7 @@ A [focused prior-art review](research/prior-art-review.md) identifies closer tar
 
 The [heterogeneous benchmark review](research/heterogeneous-benchmark-review.md) led to an [approved exact-contact study](experiments/ert-contact-benchmark/README.md). Its twelve declared state solves completed within budget, but every heterogeneous reference check failed. The [published contact results](experiments/ert-contact-benchmark/results/2026-10-09/RESULTS.md) reinforce the need to validate heterogeneous numerical responses before interpreting geometry discrimination. Sphere accuracy remains unverified.
 
-The [native solver review](research/native-solver-review.md) confirms that the tested direct path bypasses managed H2 refinement. It also corrects build-provenance interpretation and removes an unnecessary optional-mesh diagnostic call. An [explicit P2 comparison](specs/ert-p2-contact-comparison.md) is proposed for approval; no P2 contact accuracy result is claimed.
+The [native solver review](research/native-solver-review.md) confirms that the tested direct path bypasses managed H2 refinement. It also corrects build-provenance interpretation and removes an unnecessary optional-mesh diagnostic call. The [approved P2 comparison](experiments/ert-p2-contact-comparison/README.md) completed all six declared solves. P2 lowered error, but missed the predefined reduction target and every heterogeneous accuracy gate. Sphere accuracy and acquisition efficiency remain unverified.
 
 ## Research goals
 

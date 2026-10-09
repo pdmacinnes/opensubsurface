@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "literal_voltages_v": [
+    0.011213189172383535,
+    0.007234315595086154,
+    0.007234315595086154,
+    0.047023051368059975
+  ],
+  "literal_expected_v": [
+    0.011213189172383535,
+    0.007234315595086152,
+    0.007234315595086152,
+    0.04702305136805999
+  ],
+  "normalization": "identity difference divided by maximum magnitude of the two terms, with 1e-30 floor; surface derivative is absolute and exactly zero",
+  "identities": {
+    "H": {
+      "scaled_continuity": 1.6741768790441431e-16,
+      "scaled_normal_current": 1.961926030129855e-16,
+      "surface_normal_derivative": 0.0,
+      "scaled_reciprocity": 0.0
+    },
+    "C10": {
+      "scaled_continuity": 1.3279927279497846e-15,
+      "scaled_normal_current": 1.3488241457142752e-15,
+      "surface_normal_derivative": 0.0,
+      "scaled_reciprocity": 0.0
+    },
+    "C100": {
+      "scaled_continuity": 5.8098634911238194e-15,
+      "scaled_normal_current": 8.978877097266166e-15,
+      "surface_normal_derivative": 0.0,
+      "scaled_reciprocity": 0.0
+    }
+  }
+}
