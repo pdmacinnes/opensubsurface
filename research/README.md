@@ -2,7 +2,7 @@
 
 This directory contains literature reviews, technical findings, and research hypotheses for OpenSubsurface.
 
-The project is in its initial research stage. No project experiment has been implemented or run.
+The project remains in early research. The [first simulation pilot](../experiments/ert-observability-pilot/README.md) is implemented, with an inconclusive numerical run and no completed geometry bank or field validation.
 
 ## Initial research documents
 

@@ -1,0 +1,6 @@
+profile,solver,linear_solver,target_cell_m,electrode_cell_m,extent_m,normalized_rms,normalized_maximum,homogeneous_passed,projected_bank_hours,peak_gib,resource_cap_passed
+profile-pygimli-h1.5-e64.json,pygimli,native SR,1.5,1.5,64.0,2.639982580092065e-13,2.6645352591003757e-12,True,0.14316026519311384,0.7168235778808594,True
+profile-simpeg-h0.25-e128-s0.125-amg.json,simpeg,amg,0.25,0.125,128.0,3.0160204335511063,26.966850893757503,False,13.357079565276637,4.281307220458984,False
+profile-simpeg-h0.25-e128.json,simpeg,lu,0.25,0.25,128.0,2.760167558734831,27.19413720491648,False,6.386588617360523,7.12615966796875,True
+profile-simpeg-h0.5-e64-s0.25-amg.json,simpeg,amg,0.5,0.25,64.0,2.8274543204846814,26.603244830581076,False,1.3834904537741224,0.75054931640625,True
+profile-simpeg-h0.5-e64.json,simpeg,lu,0.5,0.5,64.0,2.0828040253719484,36.31002057113678,False,0.3001355041413141,0.7390365600585938,True

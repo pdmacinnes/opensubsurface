@@ -1,0 +1,97 @@
+{
+  "scientific_status": "inconclusive",
+  "stop_reason": "Numerical verification failed; the profiled configuration also exceeds the projected compute cap.",
+  "catalog_complete": false,
+  "verification_complete": false,
+  "verification_passed": false,
+  "profile": {
+    "phase": "profile",
+    "solver": "simpeg",
+    "mesh": {
+      "cell_size": 0.25,
+      "extent": 128.0,
+      "electrode_cell_size": 0.125,
+      "linear_solver": "amg"
+    },
+    "records": {
+      "homogeneous": {
+        "solver": "simpeg",
+        "linear_solver": "amg",
+        "mesh": {
+          "cell_size": 0.25,
+          "extent": 128.0,
+          "electrode_cell_size": 0.125,
+          "linear_solver": "amg"
+        },
+        "cells": 800724,
+        "nodes": 789745,
+        "boundary": "flat surface with Robin outer boundary",
+        "source_count": 64,
+        "wall_seconds": 193.57808590005152,
+        "cpu_seconds": 164.828125,
+        "peak_rss_bytes": 4569120768,
+        "sampling_seconds": 0.05,
+        "maximum_relative_equation_residual": 9.603633032648006e-11,
+        "voxel_inclusion_volume_m3": 0.0,
+        "representation": "cell-center inclusion assignment",
+        "observations": 4096
+      },
+      "h1-ba32b0c77ef15679": {
+        "solver": "simpeg",
+        "linear_solver": "amg",
+        "mesh": {
+          "cell_size": 0.25,
+          "extent": 128.0,
+          "electrode_cell_size": 0.125,
+          "linear_solver": "amg"
+        },
+        "cells": 800724,
+        "nodes": 789745,
+        "boundary": "flat surface with Robin outer boundary",
+        "source_count": 64,
+        "wall_seconds": 175.20608159992844,
+        "cpu_seconds": 152.890625,
+        "peak_rss_bytes": 4595568640,
+        "sampling_seconds": 0.05,
+        "maximum_relative_equation_residual": 9.879344544400962e-11,
+        "voxel_inclusion_volume_m3": 14.1796875,
+        "representation": "cell-center inclusion assignment",
+        "observations": 4096
+      },
+      "h2-442c5c84ad5edfc4": {
+        "solver": "simpeg",
+        "linear_solver": "amg",
+        "mesh": {
+          "cell_size": 0.25,
+          "extent": 128.0,
+          "electrode_cell_size": 0.125,
+          "linear_solver": "amg"
+        },
+        "cells": 800724,
+        "nodes": 789745,
+        "boundary": "flat surface with Robin outer boundary",
+        "source_count": 64,
+        "wall_seconds": 180.93528860004153,
+        "cpu_seconds": 150.15625,
+        "peak_rss_bytes": 4597018624,
+        "sampling_seconds": 0.05,
+        "maximum_relative_equation_residual": 9.797646787384168e-11,
+        "voxel_inclusion_volume_m3": 13.5,
+        "representation": "cell-center inclusion assignment",
+        "observations": 4096
+      }
+    },
+    "construction_seconds": 6.4014579999493435,
+    "homogeneous_check": {
+      "rms": 3.0160204335511063,
+      "maximum": 26.966850893757503,
+      "passed": false
+    },
+    "projected_full_bank_seconds": 48085.486434995895,
+    "projection_basis": "mean of two inclusion solves times 270 distinct normalized-background models; excludes additional verification and plotting",
+    "projection_run_count": 2,
+    "resource_cap_passed": false,
+    "decision": "stop: resource-cap amendment required",
+    "scientific_status": "not yet verified; no discrimination claim"
+  }
+}

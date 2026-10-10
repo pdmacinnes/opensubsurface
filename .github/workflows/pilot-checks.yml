@@ -1,0 +1,32 @@
+name: Pilot checks
+
+on: [push, pull_request]
+
+permissions:
+  contents: read
+
+jobs:
+  scientific-smoke-checks:
+    runs-on: windows-latest
+    timeout-minutes: 20
+    env:
+      OMP_NUM_THREADS: '2'
+      OPENBLAS_NUM_THREADS: '2'
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7.0.0
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install pinned dependencies
+        run: |
+          python -m pip install -r requirements-lock.txt
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          python -m pip install -e . --no-deps
+          exit $LASTEXITCODE
+      - name: Test physical checks and stop behavior
+        run: python -m pytest -q
+      - name: Verify published profile metrics
+        run: python -m opensubsurface.report experiments/ert-observability-pilot/results/2026-10-08

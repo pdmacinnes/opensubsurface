@@ -1,6 +1,6 @@
 # Reproducibility requirements
 
-Status: documentation of intended research practice. No experimental environment or result exists yet.
+Status: research practice applied to the [first numerical pilot record](../experiments/ert-observability-pilot/results/2026-10-08/RESULTS.md). The environment and raw profiles are published; the full numerical study remains incomplete.
 
 ## Record each experiment
 

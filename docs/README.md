@@ -4,7 +4,7 @@ OpenSubsurface is an independent, civilian research project investigating access
 
 ## Current status
 
-The project is in literature review and experiment-design stages. No experimental software, hardware validation, or mapping results have been produced.
+The first simulation pilot is implemented. Its numerical verification and projected-compute gates stopped the full catalog. No hardware validation or field mapping result exists. See the [pilot results](../experiments/ert-observability-pilot/results/2026-10-08/RESULTS.md).
 
 Read the [initial research assessment](../research/initial-research-report.md), [draft experiment](../research/first-experiment.md), and [reproducibility requirements](reproducibility.md).
 
@@ -13,7 +13,7 @@ Read the [initial research assessment](../research/initial-research-report.md), 
 - **Established finding:** supported by a cited scientific result or documented technical capability. State the demonstrated conditions and limitations.
 - **Hypothesis:** a plausible claim proposed for testing. State its scope and what would falsify it.
 - **Speculation:** a possible extension without sufficient evidence for the proposed setting.
-- **Project result:** an outcome produced by OpenSubsurface, accompanied by reproducible inputs and verification evidence. There are no project results yet.
+- **Project result:** an outcome produced by OpenSubsurface, accompanied by reproducible inputs and verification evidence. The first numerical profiles are published with explicit incomplete status. No field mapping result exists.
 
 "Established" does not mean universally applicable or independently replicated by this project.
 

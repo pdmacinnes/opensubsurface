@@ -1,0 +1,6 @@
+{
+  "status": "not run",
+  "reason": "not computed: failed profile gate",
+  "intended_material_states": 810,
+  "intended_distinct_normalized_models": 270
+}

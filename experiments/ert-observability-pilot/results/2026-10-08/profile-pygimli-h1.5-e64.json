@@ -1,0 +1,79 @@
+{
+  "phase": "profile",
+  "solver": "pygimli",
+  "mesh": {
+    "cell_size": 1.5,
+    "extent": 64.0
+  },
+  "records": {
+    "homogeneous": {
+      "solver": "pygimli",
+      "mesh": {
+        "cell_size": 1.5,
+        "extent": 64.0
+      },
+      "cells": 13500,
+      "nodes": 15376,
+      "boundary": "surface Neumann (-1), outer mixed (-2)",
+      "source_count": 64,
+      "singularity_removal": true,
+      "wall_seconds": 1.7116296999156475,
+      "cpu_seconds": 1.34375,
+      "peak_rss_bytes": 766808064,
+      "sampling_seconds": 0.05,
+      "voxel_inclusion_volume_m3": 0.0,
+      "representation": "cell-center inclusion assignment",
+      "observations": 4096
+    },
+    "h1-ba32b0c77ef15679": {
+      "solver": "pygimli",
+      "mesh": {
+        "cell_size": 1.5,
+        "extent": 64.0
+      },
+      "cells": 13500,
+      "nodes": 15376,
+      "boundary": "surface Neumann (-1), outer mixed (-2)",
+      "source_count": 64,
+      "singularity_removal": true,
+      "wall_seconds": 1.7614509999984875,
+      "cpu_seconds": 1.328125,
+      "peak_rss_bytes": 769683456,
+      "sampling_seconds": 0.05,
+      "voxel_inclusion_volume_m3": 27.0,
+      "representation": "cell-center inclusion assignment",
+      "observations": 4096
+    },
+    "h2-442c5c84ad5edfc4": {
+      "solver": "pygimli",
+      "mesh": {
+        "cell_size": 1.5,
+        "extent": 64.0
+      },
+      "cells": 13500,
+      "nodes": 15376,
+      "boundary": "surface Neumann (-1), outer mixed (-2)",
+      "source_count": 64,
+      "singularity_removal": true,
+      "wall_seconds": 2.0503410999663174,
+      "cpu_seconds": 1.453125,
+      "peak_rss_bytes": 769650688,
+      "sampling_seconds": 0.05,
+      "voxel_inclusion_volume_m3": 27.0,
+      "representation": "cell-center inclusion assignment",
+      "observations": 4096
+    }
+  },
+  "construction_seconds": 0.7850211999611929,
+  "homogeneous_check": {
+    "rms": 2.639982580092065e-13,
+    "maximum": 2.6645352591003757e-12,
+    "passed": true
+  },
+  "projected_full_bank_seconds": 515.3769546952099,
+  "projection_basis": "mean of two inclusion solves times 270 distinct normalized-background models; excludes additional verification and plotting",
+  "projection_run_count": 2,
+  "resource_cap_passed": true,
+  "decision": "continue numerical verification",
+  "scientific_status": "not yet verified; no discrimination claim"
+}

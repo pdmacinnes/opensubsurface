@@ -1,8 +1,8 @@
 # Experiments
 
-This directory is reserved for future simulations, measurements, and experimental results.
+This directory contains simulations, measurements, and experimental results.
 
-No experimental software has been implemented. No project experiment has been run. No hardware purchase is part of the initial repository setup.
+The [ERT observability pilot](ert-observability-pilot/README.md) is implemented. Its [first numerical profiles](ert-observability-pilot/results/2026-10-08/RESULTS.md) are inconclusive, with the full catalog stopped at the accuracy and projected-compute gates. No hardware has been purchased.
 
 Before implementation, an experiment needs an approved protocol defining its hypothesis, baselines, data generation, uncertainty treatment, cost accounting, acceptance criteria, and failure conditions.
 

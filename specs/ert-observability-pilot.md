@@ -1,6 +1,6 @@
 # Spec: ERT observability pilot
 
-Status: proposed for approval. No implementation, simulation, or hardware purchase has begun.
+Status: approved for implementation on October 8, 2026. The [first numerical profiles](../experiments/ert-observability-pilot/results/2026-10-08/RESULTS.md) are inconclusive. The full catalog was not run because the accuracy and projected-compute gates failed. No hardware was purchased.
 
 This is a bounded feasibility study preceding the [broader adaptive acquisition experiment](../research/first-experiment.md). The [focused prior-art review](../research/prior-art-review.md) records why it does not claim a new design principle.
 
