@@ -394,6 +394,28 @@ Reviewed documentation and installed 0.8.1 source. The uniform-field whole-space
 
 Reviewed source and the installed 0.25.2 digital-filter interface. A numerical transform result needs error checks before use as an independent reference.
 
+### R48. Finite element three-dimensional direct current resistivity modelling: accuracy and efficiency considerations
+
+Zhou, B., and Greenhalgh, S. A. (2001). Geophysical Journal International, 145(3), 679-688. DOI: 10.1046/j.0956-540x.2001.01412.x.
+
+[Original article](https://academic.oup.com/gji/article/145/3/679/647215), [institutional record](https://digital.library.adelaide.edu.au/items/646c9cfe-ea21-4a8b-81e6-51fd51c381d4)
+
+Reviewed boundary formulation and model-specific element-scheme accuracy comparisons. Its percentage-error criteria and models are not equivalent to the project's fixed weak-channel numerical budget.
+
+### R49. An approximate boundary condition for FEM-based 3-D numerical simulation with multi-source direct current resistivity method
+
+Zhang, Q.-J., Dai, S.-K., Chen, L.-W., et al. (2016). Chinese Journal of Geophysics, 59(9), 3448-3458. DOI: 10.6038/cjg20160927.
+
+[Original article with English abstract](https://html.rhhz.net/dqwlxb/2016-9-3448.htm)
+
+Reviewed source-dependent boundary-matrix and primary-field right-hand-side discussion. This identifies established multi-source boundary treatment as prior art, not a proposed new technology.
+
+### R50. Native pyGIMLi DC boundary and singularity-removal implementation
+
+[Source pinned to the reported native revision](https://github.com/gimli-org/pyGIMLi/blob/9076db0efdadad36b38554858b832ff6b1a800cd/core/src/bert/dcfemmodelling.cpp)
+
+Reviewed shared electrode center, facet-centered mixed coefficient, adjacent-cell material weighting, and primary-derived boundary terms. The audit distinguishes exact discrete algebra from its formal continuous interpretation and from unmeasured voltage-error attribution.
+
 ## Before asserting novelty
 
 Follow citations and citing papers for task-specific acquisition, nonlinear model discrimination, nuisance-aware survey design, and adaptive uncertainty estimation.
