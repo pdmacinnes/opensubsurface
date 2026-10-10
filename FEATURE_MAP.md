@@ -26,5 +26,6 @@ This file records implemented research capabilities and their verification state
 | Explicit P2 contact calculation | `python -m opensubsurface.p2_contact` | Six raw state arrays; cell/material checks and C resource plan | Exercised; homogeneous gates pass, heterogeneous gates fail |
 | P2 diagnostic/accuracy decisions | `python -m opensubsurface.p2_report` | Raw ratio recreation, joint-coordinate and failed-worker regression checks | Diagnostic target not supported; contact accuracy inconclusive |
 | Development quality gate | Pinned Ruff, pytest, package build, CLI report recreation | Checkpoint record and CI workflow | Implemented; no added solver/runtime dependency |
+| Standalone reflection reproduction | `experiments/pygimli-reflection-reproduction/reproduce.py` | Two-row H/C100 execution outside the checkout, frozen-input tests, and saved artifacts | Exercised; heterogeneous reflection discrepancy reproduced, cause unresolved |
 
 See the [pilot README](experiments/ert-observability-pilot/README.md), [first results](experiments/ert-observability-pilot/results/2026-10-08/RESULTS.md), and [numerical follow-up](experiments/ert-numerical-validation/README.md).

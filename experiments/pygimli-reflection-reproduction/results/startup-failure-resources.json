@@ -1,0 +1,18 @@
+{
+  "outside_checkout": true,
+  "copied_files": [
+    "reproduce.py",
+    "inputs.json"
+  ],
+  "resource_monitor": "existing opensubsurface.solvers.ResourceSample",
+  "monitor_scope": "same process, construction and both state calculations",
+  "accounted_execution_seconds": 0.01350630004890263,
+  "memory_cap_bytes": 8589934592,
+  "time_cap_seconds": 1800,
+  "resources": {
+    "wall_seconds": 0.010844699922017753,
+    "cpu_seconds": 0.015625,
+    "peak_rss_bytes": 62906368,
+    "sampling_seconds": 0.05
+  }
+}

@@ -1,6 +1,6 @@
 # Spec: standalone pyGIMLi reflection reproduction
 
-Status: proposed on October 9, 2026. Awaiting approval for implementation and two bounded native state calculations. This spec introduces no executable code or new numerical results.
+Status: Patrick approved implementation and the two bounded native state calculations on October 9, 2026. Both calculations completed. The [standalone example](../experiments/pygimli-reflection-reproduction/README.md) reproduces the published discrepancy; its numerical cause remains unresolved.
 
 ## Requirements & Goals
 
@@ -70,13 +70,13 @@ A successful reproduction establishes a specific numerical self-consistency disc
 
 ## Acceptance Criteria
 
-- [ ] The standalone directory contains one script, frozen inputs, and commands that work outside OpenSubsurface without project imports or dependencies on other result directories.
-- [ ] Input provenance, all 64 sensors, both rows, references, axes, current, and states match the published record, with independent tests for literal coordinates and values.
-- [ ] Native mesh, boundary, sensor-node, and explicit material checks pass before calculation, or a specific failure stops execution.
-- [ ] No more than two sequential native state calculations are attempted. Failures, skips, execution time, and peak memory are recorded within the declared limits.
-- [ ] H control and C100 parity/symmetry outcomes follow the declared rules. A non-reproduction is documented rather than turned into a success by changing inputs or tolerances.
-- [ ] Machine-readable results, console output, build/binary provenance, and checksums agree with the actual executed artifacts. Published checksums account for Git text normalization.
-- [ ] Development follows the standing test-first checkpoints. Record actual expected behavior failures before implementation. Include invalid-input, failed-control, nonfinite-output, incomplete-run, and positive-reproduction cases without native voltage reruns.
-- [ ] Full pytest, zero-diagnostic Ruff checks including the standalone script, package build, and existing four CLI report recreations pass. Run validation-only standalone execution outside the checkout, and repeat cheap new tests five times.
-- [ ] Update `FEATURE_MAP.md` when the capability is implemented. Commit relevant files and publish a human-review PR with auto-merge off.
-- [ ] No hardware, new dependency, unapproved native variant, changed historical accuracy gate, or external message is introduced.
+- [x] The standalone directory contains one script, frozen inputs, and commands that work outside OpenSubsurface without project imports or dependencies on other result directories.
+- [x] Input provenance, all 64 sensors, both rows, references, axes, current, and states match the published record, with independent tests for literal coordinates and values.
+- [x] Native mesh, boundary, sensor-node, and explicit material checks pass before calculation, or a specific failure stops execution.
+- [x] No more than two sequential native state calculations are attempted. Failures, skips, execution time, and peak memory are recorded within the declared limits.
+- [x] H control and C100 parity/symmetry outcomes follow the declared rules. A non-reproduction is documented rather than turned into a success by changing inputs or tolerances.
+- [x] Machine-readable results, console output, build/binary provenance, and checksums agree with the actual executed artifacts. Published checksums account for Git text normalization.
+- [x] Development follows the standing test-first checkpoints. Record actual expected behavior failures before implementation. Include invalid-input, failed-control, nonfinite-output, incomplete-run, and positive-reproduction cases without native voltage reruns.
+- [x] Full pytest, zero-diagnostic Ruff checks including the standalone script, package build, and existing four CLI report recreations pass. Run validation-only standalone execution outside the checkout, and repeat cheap new tests five times.
+- [x] Update `FEATURE_MAP.md` when the capability is implemented. Commit relevant files and publish a human-review PR with auto-merge off.
+- [x] No hardware, new dependency, unapproved native variant, changed historical accuracy gate, or external message is introduced.

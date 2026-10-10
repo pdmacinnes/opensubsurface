@@ -1,0 +1,35 @@
+{
+  "status": "failed",
+  "identity": {
+    "input_sha256": "e3f8eeb92b5f777e7276b3767d268281921ce86e5371f86f538f6b9f755e05dd",
+    "script_sha256": "fce141363ae7132fb14a58d96c0cdfa902dfe017bf1c7b840fa34c8415b02b52",
+    "source_provenance": {
+      "source_commit": "484bef8",
+      "source_directory": "experiments/ert-p2-contact-comparison/results/2026-10-09",
+      "manifest_indices": [
+        3646,
+        3786
+      ],
+      "manifest_sha256": "0b04f7711ccfb05c920d43e86f5c633d065eaba7e9fb089e6f90c6eca5a62b6a",
+      "original_axis_file_sha256": {
+        "C-x-axis-m.npy": "f5cc982c463f6ab57d02e8257c767801615e47a0749bc6ac626102a2d03a19c3",
+        "C-y-axis-m.npy": "f5cc982c463f6ab57d02e8257c767801615e47a0749bc6ac626102a2d03a19c3",
+        "C-z-axis-m.npy": "ae63fa3c4d4a9d12c087b96d67473bf9eb06ee77d1359295554758732c43db4c"
+      }
+    }
+  },
+  "states": {
+    "H": {
+      "status": "skipped",
+      "reason": "not reached"
+    },
+    "C100": {
+      "status": "skipped",
+      "reason": "not reached"
+    }
+  },
+  "state_solve_attempts": 0,
+  "decision": "inconclusive",
+  "exception_type": "ModuleNotFoundError",
+  "wall_seconds": 0.00046740006655454636
+}
