@@ -1,0 +1,64 @@
+{
+  "label": "tensor-h05-e64-g12",
+  "solver": "simpeg",
+  "settings": {
+    "cell_size": 0.5,
+    "extent": 64.0,
+    "electrode_cell_size": null,
+    "linear_solver": "amg",
+    "mesh_type": "tensor",
+    "grading": 1.2,
+    "intermediate_cell_size": null,
+    "intermediate_extent": 32.0
+  },
+  "manifest_sha256": "0b04f7711ccfb05c920d43e86f5c633d065eaba7e9fb089e6f90c6eca5a62b6a",
+  "resources": {
+    "solver": "simpeg",
+    "linear_solver": "amg",
+    "mesh": {
+      "cell_size": 0.5,
+      "extent": 64.0,
+      "electrode_cell_size": null,
+      "linear_solver": "amg",
+      "mesh_type": "tensor",
+      "grading": 1.2,
+      "intermediate_cell_size": null,
+      "intermediate_extent": 32.0
+    },
+    "cells": 256000,
+    "nodes": 269001,
+    "boundary": "flat surface with Robin outer boundary",
+    "source_count": 64,
+    "wall_seconds": 104.3004545000149,
+    "cpu_seconds": 99.78125,
+    "peak_rss_bytes": 969498624,
+    "sampling_seconds": 0.05,
+    "maximum_relative_equation_residual": 9.210353760497639e-11,
+    "voxel_inclusion_volume_m3": 0.0,
+    "representation": "cell-center inclusion assignment",
+    "observations": 4096
+  },
+  "construction": {
+    "wall_seconds": 0.6041097000706941,
+    "cpu_seconds": 0.546875,
+    "peak_rss_bytes": 215613440,
+    "sampling_seconds": 0.05
+  },
+  "homogeneous_check": {
+    "rms": 0.8656224780172375,
+    "maximum": 23.52910244270523,
+    "passed": false
+  },
+  "audit": {
+    "maximum_coordinate_interpolation_error_m": 0.0,
+    "maximum_unit_source_injection_error_a": 0.0,
+    "maximum_reciprocity_error_v_at_1ma": 1.9387336180898275e-13,
+    "robin_reference_point_xy_m": [
+      0.0,
+      0.0
+    ]
+  },
+  "worker_wall_seconds": 104.93182399997022,
+  "scope": "homogeneous validation only",
+  "recorded_at_utc": "2026-10-09T02:04:13Z"
+}

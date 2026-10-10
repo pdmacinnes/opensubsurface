@@ -30,3 +30,5 @@ jobs:
         run: python -m pytest -q
       - name: Verify published profile metrics
         run: python -m opensubsurface.report experiments/ert-observability-pilot/results/2026-10-08
+      - name: Verify numerical follow-up evidence
+        run: python -m opensubsurface.validation_report experiments/ert-numerical-validation/results/2026-10-08

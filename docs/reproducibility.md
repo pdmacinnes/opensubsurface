@@ -2,6 +2,8 @@
 
 Status: research practice applied to the [first numerical pilot record](../experiments/ert-observability-pilot/results/2026-10-08/RESULTS.md). The environment and raw profiles are published; the full numerical study remains incomplete.
 
+The [numerical validation follow-up](../experiments/ert-numerical-validation/README.md) publishes additional homogeneous voltages, four-geometry mesh comparisons, generated fitted meshes, and a reporting command. Its outcome also remains inconclusive. Successful software checks do not establish inclusion accuracy.
+
 ## Record each experiment
 
 For an approved experiment, publish:

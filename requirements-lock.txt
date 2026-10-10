@@ -28,3 +28,4 @@ setuptools==84.0.0
 simpeg==0.25.2
 six==1.17.0
 typing_extensions==4.16.0
+tetgen==0.8.4
