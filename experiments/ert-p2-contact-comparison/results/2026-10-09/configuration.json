@@ -1,0 +1,384 @@
+{
+  "states_ohm_m": {
+    "H": [
+      100.0,
+      100.0
+    ],
+    "C10": [
+      100.0,
+      1000.0
+    ],
+    "C100": [
+      100.0,
+      10000.0
+    ]
+  },
+  "current_a": 0.001,
+  "electrodes_m": [
+    [
+      -10.5,
+      -10.5,
+      0.0
+    ],
+    [
+      -10.5,
+      -7.5,
+      0.0
+    ],
+    [
+      -10.5,
+      -4.5,
+      0.0
+    ],
+    [
+      -10.5,
+      -1.5,
+      0.0
+    ],
+    [
+      -10.5,
+      1.5,
+      0.0
+    ],
+    [
+      -10.5,
+      4.5,
+      0.0
+    ],
+    [
+      -10.5,
+      7.5,
+      0.0
+    ],
+    [
+      -10.5,
+      10.5,
+      0.0
+    ],
+    [
+      -7.5,
+      -10.5,
+      0.0
+    ],
+    [
+      -7.5,
+      -7.5,
+      0.0
+    ],
+    [
+      -7.5,
+      -4.5,
+      0.0
+    ],
+    [
+      -7.5,
+      -1.5,
+      0.0
+    ],
+    [
+      -7.5,
+      1.5,
+      0.0
+    ],
+    [
+      -7.5,
+      4.5,
+      0.0
+    ],
+    [
+      -7.5,
+      7.5,
+      0.0
+    ],
+    [
+      -7.5,
+      10.5,
+      0.0
+    ],
+    [
+      -4.5,
+      -10.5,
+      0.0
+    ],
+    [
+      -4.5,
+      -7.5,
+      0.0
+    ],
+    [
+      -4.5,
+      -4.5,
+      0.0
+    ],
+    [
+      -4.5,
+      -1.5,
+      0.0
+    ],
+    [
+      -4.5,
+      1.5,
+      0.0
+    ],
+    [
+      -4.5,
+      4.5,
+      0.0
+    ],
+    [
+      -4.5,
+      7.5,
+      0.0
+    ],
+    [
+      -4.5,
+      10.5,
+      0.0
+    ],
+    [
+      -1.5,
+      -10.5,
+      0.0
+    ],
+    [
+      -1.5,
+      -7.5,
+      0.0
+    ],
+    [
+      -1.5,
+      -4.5,
+      0.0
+    ],
+    [
+      -1.5,
+      -1.5,
+      0.0
+    ],
+    [
+      -1.5,
+      1.5,
+      0.0
+    ],
+    [
+      -1.5,
+      4.5,
+      0.0
+    ],
+    [
+      -1.5,
+      7.5,
+      0.0
+    ],
+    [
+      -1.5,
+      10.5,
+      0.0
+    ],
+    [
+      1.5,
+      -10.5,
+      0.0
+    ],
+    [
+      1.5,
+      -7.5,
+      0.0
+    ],
+    [
+      1.5,
+      -4.5,
+      0.0
+    ],
+    [
+      1.5,
+      -1.5,
+      0.0
+    ],
+    [
+      1.5,
+      1.5,
+      0.0
+    ],
+    [
+      1.5,
+      4.5,
+      0.0
+    ],
+    [
+      1.5,
+      7.5,
+      0.0
+    ],
+    [
+      1.5,
+      10.5,
+      0.0
+    ],
+    [
+      4.5,
+      -10.5,
+      0.0
+    ],
+    [
+      4.5,
+      -7.5,
+      0.0
+    ],
+    [
+      4.5,
+      -4.5,
+      0.0
+    ],
+    [
+      4.5,
+      -1.5,
+      0.0
+    ],
+    [
+      4.5,
+      1.5,
+      0.0
+    ],
+    [
+      4.5,
+      4.5,
+      0.0
+    ],
+    [
+      4.5,
+      7.5,
+      0.0
+    ],
+    [
+      4.5,
+      10.5,
+      0.0
+    ],
+    [
+      7.5,
+      -10.5,
+      0.0
+    ],
+    [
+      7.5,
+      -7.5,
+      0.0
+    ],
+    [
+      7.5,
+      -4.5,
+      0.0
+    ],
+    [
+      7.5,
+      -1.5,
+      0.0
+    ],
+    [
+      7.5,
+      1.5,
+      0.0
+    ],
+    [
+      7.5,
+      4.5,
+      0.0
+    ],
+    [
+      7.5,
+      7.5,
+      0.0
+    ],
+    [
+      7.5,
+      10.5,
+      0.0
+    ],
+    [
+      10.5,
+      -10.5,
+      0.0
+    ],
+    [
+      10.5,
+      -7.5,
+      0.0
+    ],
+    [
+      10.5,
+      -4.5,
+      0.0
+    ],
+    [
+      10.5,
+      -1.5,
+      0.0
+    ],
+    [
+      10.5,
+      1.5,
+      0.0
+    ],
+    [
+      10.5,
+      4.5,
+      0.0
+    ],
+    [
+      10.5,
+      7.5,
+      0.0
+    ],
+    [
+      10.5,
+      10.5,
+      0.0
+    ]
+  ],
+  "manifest_sha256": "0b04f7711ccfb05c920d43e86f5c633d065eaba7e9fb089e6f90c6eca5a62b6a",
+  "rms_threshold": 0.1,
+  "maximum_threshold": 0.25,
+  "worker_cap_seconds": 7200.0,
+  "development_allowance_seconds": 600.0,
+  "memory_cap_gib": 8,
+  "model": "infinite vertical x=0 contact in flat z<0 half-space; no contact resistance",
+  "native_formulation": "explicit createP2 once; direct per-cell DCSR; no managed H2 refinement",
+  "study": "explicit P2 comparison on frozen A/C cells",
+  "mesh_labels": [
+    "A",
+    "C"
+  ],
+  "maximum_state_solves": 6,
+  "diagnostic_ratio_threshold": 0.25,
+  "baseline_raw_data_sha256": {
+    "A-C10-voltage-v.npy": "d1aeb63c635e737677f5196052a89975a75b78a294b3433c45643a6b311e759e",
+    "A-C100-voltage-v.npy": "c27f69f6f8f190e0f8a989699482759ac1703731b8f7746e86fb2960c6fe472c",
+    "A-H-voltage-v.npy": "4e2e228a3dfec3a5efd7f35b257fbb795a5719e891d120af4845c8c1f1478908",
+    "A-x-axis-m.npy": "fb9dd394d6c445dddd505783e649b8b6e0e76411076ce106d76a9807f8711f6e",
+    "A-y-axis-m.npy": "fb9dd394d6c445dddd505783e649b8b6e0e76411076ce106d76a9807f8711f6e",
+    "A-z-axis-m.npy": "dede8adb5427007a2ddbce1517ab61eab9a42745e81efe61de7a3d9abede996e",
+    "B-C10-voltage-v.npy": "0295e77eed1c3fe071724a3183df862a5feb018d420902d4107c7b5af619f256",
+    "B-C100-voltage-v.npy": "8c75703fb903535b37860b5f2ec4a8a2e9cc7430e3e4d01df99bc5b60f94e32f",
+    "B-H-voltage-v.npy": "4236948de80c8eaf2b8fe0473170d5a70160a42653979ec9aa8005fa49229d0b",
+    "B-x-axis-m.npy": "2c2119d567463abbddd92a465d9b31ec04edcc4bca1e6a33cc33e525df0bc619",
+    "B-y-axis-m.npy": "2c2119d567463abbddd92a465d9b31ec04edcc4bca1e6a33cc33e525df0bc619",
+    "B-z-axis-m.npy": "015f3fe1ad5dda83cfbcdfe9901a43f0cc9cb32155abf4a68c14abcfd155c339",
+    "C-C10-voltage-v.npy": "06ce3218b4b5c2a566625fabd2333dafd5f622d9fb41821740cabb933e847403",
+    "C-C100-voltage-v.npy": "26a869413ef8d42d79403f8e63e78c8dee6fa9d194d281576bfec26c46a1f535",
+    "C-H-voltage-v.npy": "5ce5892bc3421fa8009b60657c96c5f24d7a1de940f81d1ed3f674c8140775c8",
+    "C-x-axis-m.npy": "f5cc982c463f6ab57d02e8257c767801615e47a0749bc6ac626102a2d03a19c3",
+    "C-y-axis-m.npy": "f5cc982c463f6ab57d02e8257c767801615e47a0749bc6ac626102a2d03a19c3",
+    "C-z-axis-m.npy": "ae63fa3c4d4a9d12c087b96d67473bf9eb06ee77d1359295554758732c43db4c",
+    "C10-reference-v.npy": "7e7909e6132c8a7ac2a5931927207ad8a99f1d6258acbb774a55ee5e74f251f6",
+    "C100-reference-v.npy": "eb6e40ea3f5250e4365c90bc019f8f130f67ae253845c53638cf9b741d6c378e",
+    "D-C10-voltage-v.npy": "0bf7323698cc9bc1fb5a2b25f89b7e12d53545e138f655130ebdcdf7e54016af",
+    "D-C100-voltage-v.npy": "28ce02bee8e7d155165bfb4eb251373fa7bc2176f020627d310d2dda264fd990",
+    "D-H-voltage-v.npy": "1a356446b23eba96fbf42f37667bc587dddcc1eeba282e5b6cf7990bae1d1400",
+    "D-x-axis-m.npy": "f46bb97d36601ec72222cb9c427cab89eeab1f43d1b2008b52e23116e458f0ab",
+    "D-y-axis-m.npy": "f46bb97d36601ec72222cb9c427cab89eeab1f43d1b2008b52e23116e458f0ab",
+    "D-z-axis-m.npy": "a17989f37b12bcd61c20b69cb06410741fc8390106a64ea8677d2f6179090077",
+    "fixed-sigma-v.npy": "4ebe3ff343f30a7607650a49f440cdaeb9ff4d18328f980c5b81754080c80800",
+    "H-reference-v.npy": "91ac03dd1a554a0e8fd4176c3755b4895966485a24ad2171f6c2d07c83f9ce48"
+  }
+}

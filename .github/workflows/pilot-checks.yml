@@ -28,9 +28,15 @@ jobs:
           exit $LASTEXITCODE
       - name: Test physical checks and stop behavior
         run: python -m pytest -q
+      - name: Lint without diagnostics
+        run: python -m ruff check src tests
+      - name: Build package without new dependencies
+        run: python -m pip wheel . --no-deps --no-build-isolation --wheel-dir experiments/outputs/package-check
       - name: Verify published profile metrics
         run: python -m opensubsurface.report experiments/ert-observability-pilot/results/2026-10-08
       - name: Verify numerical follow-up evidence
         run: python -m opensubsurface.validation_report experiments/ert-numerical-validation/results/2026-10-08
       - name: Verify exact-contact evidence
         run: python -m opensubsurface.contact_report experiments/ert-contact-benchmark/results/2026-10-09
+      - name: Verify P2 contact evidence
+        run: python -m opensubsurface.p2_report experiments/ert-p2-contact-comparison/results/2026-10-09

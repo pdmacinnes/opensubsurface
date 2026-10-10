@@ -1,0 +1,134 @@
+{
+  "mesh": "C",
+  "status": "completed",
+  "states": {
+    "H": {
+      "status": "completed",
+      "check": {
+        "rms": 3.59063841718121e-12,
+        "maximum": 3.429540429942137e-11,
+        "passed": true
+      },
+      "resources": {
+        "wall_seconds": 43.38965989998542,
+        "cpu_seconds": 12.421875,
+        "peak_rss_bytes": 2628554752,
+        "sampling_seconds": 0.05
+      },
+      "native_diagnostics": {
+        "core_cells": 23328,
+        "core_nodes": 101269,
+        "material_assignment_verified": true,
+        "maximum_relative_equation_residual": "unavailable from this adapter",
+        "primaryMesh": {
+          "status": "not queried",
+          "reason": "optional native mesh is absent for the flat analytical primary; getter assumes a non-null pointer"
+        },
+        "primaryPotential": {
+          "rows": 64,
+          "columns": 101269
+        }
+      },
+      "worst_manifest_index": 1240
+    },
+    "C10": {
+      "status": "completed",
+      "check": {
+        "rms": 13.68703520832989,
+        "maximum": 703.4465174013196,
+        "passed": false
+      },
+      "resources": {
+        "wall_seconds": 17.656252400018275,
+        "cpu_seconds": 12.046875,
+        "peak_rss_bytes": 2651197440,
+        "sampling_seconds": 0.05
+      },
+      "native_diagnostics": {
+        "core_cells": 23328,
+        "core_nodes": 101269,
+        "material_assignment_verified": true,
+        "maximum_relative_equation_residual": "unavailable from this adapter",
+        "primaryMesh": {
+          "status": "not queried",
+          "reason": "optional native mesh is absent for the flat analytical primary; getter assumes a non-null pointer"
+        },
+        "primaryPotential": {
+          "rows": 64,
+          "columns": 101269
+        }
+      },
+      "worst_manifest_index": 3839
+    },
+    "C100": {
+      "status": "completed",
+      "check": {
+        "rms": 164.1968301468663,
+        "maximum": 8470.5315602705,
+        "passed": false
+      },
+      "resources": {
+        "wall_seconds": 22.96537949994672,
+        "cpu_seconds": 11.265625,
+        "peak_rss_bytes": 2675281920,
+        "sampling_seconds": 0.05
+      },
+      "native_diagnostics": {
+        "core_cells": 23328,
+        "core_nodes": 101269,
+        "material_assignment_verified": true,
+        "maximum_relative_equation_residual": "unavailable from this adapter",
+        "primaryMesh": {
+          "status": "not queried",
+          "reason": "optional native mesh is absent for the flat analytical primary; getter assumes a non-null pointer"
+        },
+        "primaryPotential": {
+          "rows": 64,
+          "columns": 101269
+        }
+      },
+      "worst_manifest_index": 3839
+    }
+  },
+  "worker_wall_seconds": 92.68882809998468,
+  "resource_plan": {
+    "factor": 3.6148055347363854,
+    "nodes_A": 59551,
+    "nodes_C": 101269,
+    "projected_peak_bytes": 5486882898.97298,
+    "projected_worker_seconds": 75.10687069669865,
+    "remaining_seconds": 6577.3321175000165,
+    "allowed": true,
+    "method": "approved 1.25 times squared node ratio; planning heuristic, not a bound"
+  },
+  "geometry": {
+    "passed": true,
+    "material_cells": 23328,
+    "linear_nodes": 26011,
+    "p2_nodes": 101269,
+    "nodes_per_cell": 20,
+    "maximum_center_error_m": 0.0,
+    "straddling_cells": 0,
+    "cell_extents_preserved": true,
+    "markers_preserved": true,
+    "exact_electrodes": true,
+    "inherited_attributes_trusted": false,
+    "boundary_counts": {
+      "-1": 1296,
+      "-2": 3888
+    },
+    "boundary_convention_verified": true
+  },
+  "construction": {
+    "wall_seconds": 8.176307799993083,
+    "cpu_seconds": 4.703125,
+    "peak_rss_bytes": 1006075904,
+    "sampling_seconds": 0.05
+  },
+  "resources": {
+    "wall_seconds": 92.22072400001343,
+    "cpu_seconds": 40.453125,
+    "peak_rss_bytes": 2675281920,
+    "sampling_seconds": 0.05
+  }
+}

@@ -1,6 +1,6 @@
 # Spec: explicit P2 contact comparison
 
-Status: proposed for approval. The [source and construction review](../research/native-solver-review.md) is complete. No P2 contact voltage solve has been implemented or executed.
+Status: approved for implementation and execution on October 9, 2026. All six declared state solves completed. The [published study](../experiments/ert-p2-contact-comparison/results/2026-10-09/RESULTS.md) does not support the fourfold diagnostic target, and contact accuracy remains inconclusive.
 
 ## Requirements & Goals
 
@@ -12,7 +12,9 @@ Diagnostic hypothesis: P2 reduces both normalized RMS and maximum reference erro
 
 Contact accuracy remains a separate claim. It requires the unchanged RMS <= 0.1 and maximum <= 0.25 gates for all states on both P2 meshes, plus their extent-difference gate. A successful reduction alone does not validate the solver for the declared survey.
 
-Limit this stage to two P2 configurations and at most six native state solves, sequentially, under a two-hour accounted worker budget and 8 GiB process cap. No new dependency, additional mesh variant, H2 sweep, boundary change, exact-contact primary field, GPU backend, hardware, nuisance analysis, classifier, adaptive acquisition, or sphere work is included.
+Limit this stage to two P2 configurations and at most six native state solves, sequentially, under a two-hour accounted worker budget and 8 GiB process cap. No new solver/runtime dependency, additional mesh variant, H2 sweep, boundary change, exact-contact primary field, GPU backend, hardware, nuisance analysis, classifier, adaptive acquisition, or sphere work is included.
+
+Testing-policy amendment during execution: replacement standing instructions introduced test checkpoints and a lint gate after implementation had started. Ruff 0.16.10 was added as development-only tooling. The [verification record](../experiments/ert-p2-contact-comparison/results/2026-10-09/VERIFICATION.md) records that chronology and subsequent actual failing tests. Physical inputs, acceptance thresholds, and the six-solve scope were not amended.
 
 ## Inputs, Outputs & Behavior
 
@@ -76,15 +78,15 @@ Publish a standalone result directory with frozen input provenance, P2 topology/
 
 ## Acceptance Criteria
 
-- [ ] Original raw data, baseline errors, manifest, electrode/current constants, reference identities, and tolerance scale verify before native work.
-- [ ] Two P2 configurations are declared; every constructed mesh retains the original A/C material geometry and passes correspondence, boundary, electrode, and element checks. Skipped construction is explicit.
-- [ ] Resistivities are explicitly mapped after refinement and verified; inherited attributes are never trusted.
-- [ ] At most six state solves are attempted sequentially, with homogeneous gates and documented resource planning/stop decisions.
-- [ ] Time and peak-memory records satisfy the two-hour and 8 GiB limits for accepted runs, including construction, failed work, and the development allowance.
-- [ ] All numerical-error and P2/linear ratios recreate from raw arrays; missing or failed cases remain explicit.
-- [ ] Diagnostic error reduction and strict contact accuracy have separate, unambiguous decisions under the stated criteria.
-- [ ] Polynomial-order comparisons and extent comparisons preserve their declared independent factors.
-- [ ] Native build/source/binary provenance is recorded separately from Python-reported version strings.
-- [ ] No unsupported sphere, observability, performance-speedup, acquisition-efficiency, or novelty claim is made.
-- [ ] Existing study tests/reports still reproduce, and new checks cover material correspondence, lost attributes, element counts, budget skips, and report decisions.
-- [ ] The approved implementation and results are committed and published through a human-review PR with auto-merge off.
+- [x] Original raw data, baseline errors, manifest, electrode/current constants, reference identities, and tolerance scale verify before native work.
+- [x] Two P2 configurations are declared; every constructed mesh retains the original A/C material geometry and passes correspondence, boundary, electrode, and element checks. Skipped construction is explicit.
+- [x] Resistivities are explicitly mapped after refinement and verified; inherited attributes are never trusted.
+- [x] At most six state solves are attempted sequentially, with homogeneous gates and documented resource planning/stop decisions.
+- [x] Time and peak-memory records satisfy the two-hour and 8 GiB limits for accepted runs, including construction, failed work, and the development allowance.
+- [x] All numerical-error and P2/linear ratios recreate from raw arrays; missing or failed cases remain explicit.
+- [x] Diagnostic error reduction and strict contact accuracy have separate, unambiguous decisions under the stated criteria.
+- [x] Polynomial-order comparisons and extent comparisons preserve their declared independent factors.
+- [x] Native build/source/binary provenance is recorded separately from Python-reported version strings.
+- [x] No unsupported sphere, observability, performance-speedup, acquisition-efficiency, or novelty claim is made.
+- [x] Existing study tests/reports still reproduce, and new checks cover material correspondence, lost attributes, element counts, budget skips, and report decisions.
+- [x] The approved implementation and results are committed and published through a human-review PR with auto-merge off.

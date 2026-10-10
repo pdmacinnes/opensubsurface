@@ -2,6 +2,8 @@
 
 Review date: October 9, 2026, America/Denver. Scope: installed-source inspection, construction-only mesh probes, and one diagnostic correction. No additional contact voltage solve or new mesh-accuracy result is included.
 
+Subsequent execution: the [approved P2 comparison](../experiments/ert-p2-contact-comparison/results/2026-10-09/RESULTS.md) completed six state solves. The fourfold target is not supported, and contact accuracy remains inconclusive. The review below preserves the reasoning before those runs.
+
 **Recommendation:** test explicit P2 elements on the original coarse A and C material cells, under a separate bounded spec. Our direct path uses the supplied mesh without the framework's automatic H2 refinement. This is a verified path distinction, not proof that element order causes the full accuracy failure.
 
 The [contact study](../experiments/ert-contact-benchmark/results/2026-10-09/RESULTS.md) remains inconclusive. Its raw voltages and checksums have not been replaced.

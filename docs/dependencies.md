@@ -16,6 +16,7 @@ The pilot uses Python 3.12 and the pinned environment in [requirements-lock.txt]
 | Matplotlib | 3.11.2 | Scientific figures | Matplotlib license |
 | psutil | 7.2.2 | Worker resource measurements | BSD 3-Clause |
 | pytest | 9.1.1 | Scientific unit and solver smoke checks | MIT |
+| Ruff | 0.16.10 | Development-only static code checks | MIT |
 
 This table records the installed distribution metadata. Dependencies and bundled components retain their own notices and licenses. Third-party binaries are not committed to this repository.
 

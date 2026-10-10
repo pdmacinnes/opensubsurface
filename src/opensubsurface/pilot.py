@@ -58,7 +58,7 @@ def profile(output, solver_name, settings):
     manifest, models = setup_record(output)
     start = perf_counter()
     constructor = SimpegForward if solver_name == "simpeg" else PygimliForward
-    with ResourceSample() as construction:
+    with ResourceSample():
         forward = constructor(settings, manifest)
     construction_seconds = perf_counter() - start
     analytic = homogeneous_voltage(electrodes(), manifest)

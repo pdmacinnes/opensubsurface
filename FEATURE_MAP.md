@@ -22,6 +22,9 @@ This file records implemented research capabilities and their verification state
 | Bounded native contact study | `python -m opensubsurface.contact` | Twelve state records and raw voltages | Exercised; homogeneous controls pass, all heterogeneous gates fail |
 | Contact report reproduction | `python -m opensubsurface.contact_report` | Recomputed references, raw checksums, state and factor comparisons | Exercised; scientific outcome inconclusive |
 | Optional primary-field diagnostics | `contact.primary_field_diagnostics` | Regression check prohibits absent native-mesh getter call | Corrected; voltage calculation unchanged |
-| Native refinement/provenance review | `research/native-solver-review.md` | Installed-source hashes, native build/binary identities, construction-only probe | Direct/managed path distinction verified; P2 voltage accuracy untested |
+| Native refinement/provenance review | `research/native-solver-review.md` | Installed-source hashes, native build/binary identities, construction-only probe | Direct/managed path distinction verified; subsequent P2 accuracy checks fail |
+| Explicit P2 contact calculation | `python -m opensubsurface.p2_contact` | Six raw state arrays; cell/material checks and C resource plan | Exercised; homogeneous gates pass, heterogeneous gates fail |
+| P2 diagnostic/accuracy decisions | `python -m opensubsurface.p2_report` | Raw ratio recreation, joint-coordinate and failed-worker regression checks | Diagnostic target not supported; contact accuracy inconclusive |
+| Development quality gate | Pinned Ruff, pytest, package build, CLI report recreation | Checkpoint record and CI workflow | Implemented; no added solver/runtime dependency |
 
 See the [pilot README](experiments/ert-observability-pilot/README.md), [first results](experiments/ert-observability-pilot/results/2026-10-08/RESULTS.md), and [numerical follow-up](experiments/ert-numerical-validation/README.md).
