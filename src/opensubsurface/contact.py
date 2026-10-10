@@ -1,6 +1,6 @@
 import argparse
 from hashlib import sha256
-from importlib.metadata import version
+from importlib.metadata import distribution, version
 import json
 import os
 from pathlib import Path
@@ -174,6 +174,14 @@ def prepare(output):
               "versions": {name: version(name) for name in ("numpy", "scipy", "pygimli", "pgcore", "psutil")},
               "thread_limits": {key: os.environ.get(key) for key in ("OMP_NUM_THREADS", "OPENBLAS_NUM_THREADS")},
               "pygimli_runtime_version": __import__("pygimli").__version__,
+              "pygimli_runtime_version_role": "Python-reported identifier; may derive from enclosing project Git history",
+              "native_core_version": __import__("pygimli").core.versionStr(),
+              "native_binary_sha256": {str(file): sha256(distribution("pgcore").locate_file(file).read_bytes()).hexdigest()
+                                       for file in distribution("pgcore").files
+                                       if str(file).endswith((".pyd", ".dll")) or ".so" in Path(file).name},
+              "installed_python_source_sha256": {"pygimli/" + name:
+                  sha256((Path(__import__("pygimli").__file__).parent / name).read_bytes()).hexdigest()
+                  for name in ("physics/ert/ert.py", "physics/ert/ertModelling.py", "frameworks/modelling.py", "_version.py")},
               "source_sha256": {name: sha256(Path(__file__).with_name(name).read_bytes()).hexdigest() for name in ("contact.py", "solvers.py")}})
     save_json(output / "preparation.json", {"wall_seconds": time.perf_counter() - started})
 
@@ -181,6 +189,17 @@ def prepare(output):
 def spent_seconds(output):
     preparation = json.loads((output / "preparation.json").read_text())["wall_seconds"]
     return DEVELOPMENT_ALLOWANCE_SECONDS + preparation + sum(json.loads(path.read_text()).get("worker_wall_seconds", 0.) for path in output.glob("worker-*.json"))
+
+
+def primary_field_diagnostics(core):
+    diagnostics = {"primaryMesh": {"status": "not queried",
+        "reason": "optional native mesh is absent for the flat analytical primary; getter assumes a non-null pointer"}}
+    try:
+        potential = core.primaryPotential()
+        diagnostics["primaryPotential"] = {"rows": potential.rows(), "columns": potential.cols()}
+    except Exception as error:
+        diagnostics["primaryPotential"] = {"status": "unavailable", "exception_type": type(error).__name__}
+    return diagnostics
 
 
 def worker(output, label):
@@ -245,13 +264,7 @@ def worker(output, label):
                         "operator_cells": fop.mesh().cellCount(), "operator_nodes": fop.mesh().nodeCount(),
                         "core_cells": fop._core.mesh().cellCount(), "core_nodes": fop._core.mesh().nodeCount(),
                         "maximum_relative_equation_residual": "unavailable from this adapter"}
-                    for method in ("primaryMesh", "primaryPotential"):
-                        try:
-                            value = getattr(fop._core, method)()
-                            diagnostics[method] = ({"cells": value.cellCount(), "nodes": value.nodeCount()} if method == "primaryMesh"
-                                                   else {"rows": value.rows(), "columns": value.cols()})
-                        except Exception as error:
-                            diagnostics[method] = {"status": "unavailable", "exception_type": type(error).__name__}
+                    diagnostics.update(primary_field_diagnostics(fop._core))
                 if voltage.shape != (4096,) or not np.all(np.isfinite(voltage)):
                     raise ValueError("Native voltage array is invalid")
                 np.save(output / f"{label}-{state}-voltage-v.npy", voltage, allow_pickle=False)

@@ -19,7 +19,9 @@ The pilot uses Python 3.12 and the pinned environment in [requirements-lock.txt]
 
 This table records the installed distribution metadata. Dependencies and bundled components retain their own notices and licenses. Third-party binaries are not committed to this repository.
 
-The tested pyGIMLi Python distribution reports version 1.6.1 while its runtime version string is an untagged build identifier. The published environment records distribution versions. Pinning pgcore separately preserves the observed compiled-core version.
+The tested pyGIMLi Python distribution reports version 1.6.1. Its Python-reported `__version__` is not a reliable compiled-build identifier in this installation: its version helper resolves the enclosing OpenSubsurface Git checkout. The [native source review](../research/native-solver-review.md) documents the correction. Historical environment JSON retains the values actually reported at execution.
+
+The independent native-core string from `pg.core.versionStr()` is `libgimli-v1.6.0-4-g9076db0e`. The [review evidence](../research/native-solver-review-evidence.json) records installed Python hashes, the extension and bundled DLL hashes, and the corresponding upstream revision. Distribution versions, dynamic Python version strings, and native binary provenance are separate fields.
 
 The original project code and generated research data are covered by the repository's Apache 2.0 license. That license does not relicense dependencies.
 
