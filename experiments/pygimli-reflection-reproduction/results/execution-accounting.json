@@ -1,0 +1,10 @@
+{
+  "native_state_solve_attempts": 2,
+  "startup_native_state_solve_attempts": 0,
+  "accounted_execution_seconds": 21.85959270002786,
+  "peak_rss_bytes": 2366668800,
+  "limit_seconds": 1800,
+  "limit_bytes": 8589934592,
+  "monitor_limit_note": "Sampled process monitoring, not operating-system hard isolation",
+  "startup_failure_cause": "Local helper removed the virtual environment site-packages while excluding project paths. Corrected only the helper before any native solve."
+}

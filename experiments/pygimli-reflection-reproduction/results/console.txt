@@ -1,0 +1,575 @@
+{
+  "status": "started",
+  "identity": {
+    "input_sha256": "e3f8eeb92b5f777e7276b3767d268281921ce86e5371f86f538f6b9f755e05dd",
+    "script_sha256": "fce141363ae7132fb14a58d96c0cdfa902dfe017bf1c7b840fa34c8415b02b52",
+    "source_provenance": {
+      "source_commit": "484bef8",
+      "source_directory": "experiments/ert-p2-contact-comparison/results/2026-10-09",
+      "manifest_indices": [
+        3646,
+        3786
+      ],
+      "manifest_sha256": "0b04f7711ccfb05c920d43e86f5c633d065eaba7e9fb089e6f90c6eca5a62b6a",
+      "original_axis_file_sha256": {
+        "C-x-axis-m.npy": "f5cc982c463f6ab57d02e8257c767801615e47a0749bc6ac626102a2d03a19c3",
+        "C-y-axis-m.npy": "f5cc982c463f6ab57d02e8257c767801615e47a0749bc6ac626102a2d03a19c3",
+        "C-z-axis-m.npy": "ae63fa3c4d4a9d12c087b96d67473bf9eb06ee77d1359295554758732c43db4c"
+      }
+    }
+  },
+  "states": {
+    "H": {
+      "status": "skipped",
+      "reason": "not reached"
+    },
+    "C100": {
+      "status": "skipped",
+      "reason": "not reached"
+    }
+  },
+  "state_solve_attempts": 0,
+  "decision": "inconclusive"
+}
+
+{
+  "status": "started",
+  "identity": {
+    "input_sha256": "e3f8eeb92b5f777e7276b3767d268281921ce86e5371f86f538f6b9f755e05dd",
+    "script_sha256": "fce141363ae7132fb14a58d96c0cdfa902dfe017bf1c7b840fa34c8415b02b52",
+    "source_provenance": {
+      "source_commit": "484bef8",
+      "source_directory": "experiments/ert-p2-contact-comparison/results/2026-10-09",
+      "manifest_indices": [
+        3646,
+        3786
+      ],
+      "manifest_sha256": "0b04f7711ccfb05c920d43e86f5c633d065eaba7e9fb089e6f90c6eca5a62b6a",
+      "original_axis_file_sha256": {
+        "C-x-axis-m.npy": "f5cc982c463f6ab57d02e8257c767801615e47a0749bc6ac626102a2d03a19c3",
+        "C-y-axis-m.npy": "f5cc982c463f6ab57d02e8257c767801615e47a0749bc6ac626102a2d03a19c3",
+        "C-z-axis-m.npy": "ae63fa3c4d4a9d12c087b96d67473bf9eb06ee77d1359295554758732c43db4c"
+      }
+    }
+  },
+  "states": {
+    "H": {
+      "status": "attempted"
+    },
+    "C100": {
+      "status": "skipped",
+      "reason": "not reached"
+    }
+  },
+  "state_solve_attempts": 1,
+  "decision": "inconclusive",
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Windows",
+    "gpu_used": false,
+    "versions": {
+      "numpy": "2.5.3",
+      "pygimli": "1.6.1",
+      "pgcore": "1.6.0"
+    },
+    "native_core_version": "libgimli-v1.6.0-4-g9076db0e",
+    "python_reported_version": "0+untagged.14.g1ce4aee",
+    "python_reported_version_role": "separate identifier; may reflect an enclosing checkout",
+    "native_binary_sha256": {
+      "pgcore.libs/libamd-74b7bfc96b1858c4f6bc55266483bf37.dll": "82998ad2fe5b249a335422ecb4dbf81f68cbb95691b057a9c7ca81b545b0e2e5",
+      "pgcore.libs/libboost_python312-mt-x64-5391b62b8ef44f6b17196d4294900d8d.dll": "33fd287e098b50cca62901ed4c702bc5e25a9d3057620874b24b21e5ba3e9b0a",
+      "pgcore.libs/libcamd-939fb6720dca4f50afa075765340e5b7.dll": "30a12d0734b236f4af0ac695a1fe5de4fe69a2d7fd462d6023bfacadea91cbe2",
+      "pgcore.libs/libccolamd-e31f02ca9e59d6ef745eebfdb4189487.dll": "6ca381bc89684766f57653a6896c682eb5e6e61e3cceb23b951beab8e2e88b98",
+      "pgcore.libs/libcholmod-2186579c988f5228870ca77a1c6a94ba.dll": "ad6017cfd81e5f6c61a894f3e07932e03d0837ec57c266141a6f358b40ba0c78",
+      "pgcore.libs/libcolamd-27b6304a0996e100e2cba853d84ed851.dll": "23efad5cb1bb5ab4e0e482d792e202b85023f6ddc670d2c8eab1368fab4cdab5",
+      "pgcore.libs/libgcc_s_seh-1-062e9b97f52750e63ae1e2dc11e321eb.dll": "48efc848b9191c23f80adae4f1d703eb66cf79a1652e0dbb1b5a54e13d728064",
+      "pgcore.libs/libgfortran-5-f089b6e4f06297d8cb2182619660b62f.dll": "f7d4c15f560dcdbdc8c547fb91179a09737e23f9eccf6b91554a47ef96b64749",
+      "pgcore.libs/libgimli-f14a68e596e57256f077e9fd6d3d30ad.dll": "05f5c17107470e3dc997c4feac8ae664e982059660bebabad779bf4b852457fe",
+      "pgcore.libs/libgomp-1-c242f45e6814d25ee06ba72f03ac251f.dll": "42fee8040fd21e67e4e4ce06e625065d8fef79efbce5ecf0299cef4af00b381c",
+      "pgcore.libs/libopenblas-0c38504e26f65923edd995b48f3b880c.dll": "d3156c30e9bea30fcbe6020e4d6ba61134db7d1cdb322f0542506ec72b63e5d8",
+      "pgcore.libs/libquadmath-0-4475696678d6279c6f2c8ec45a7fc1a9.dll": "8f72abb28837f3c839a487ccc319fba95515954222a8b42814652534d62f699d",
+      "pgcore.libs/libstdc++-6-f1b125c1d7464da4ad6f2fcaf2d6e7b3.dll": "364e3ebe93f2fd596e0f12919439a79b5b5f6c78a1d5a40b7089ecee2a7b4260",
+      "pgcore.libs/libsuitesparseconfig-22c1a79cc0e765e4a55414fd8e114d3d.dll": "9dbcb916641a2012f10fd3dfe9cc4129382fc965f6550be942bdbc974bb191cb",
+      "pgcore.libs/libumfpack-c51edc2817e5f3c25d0ca393df3b0762.dll": "4383ca87ce45b48d7b787b54b6b9a811576160d1dcdeb126611983eb083af156",
+      "pgcore.libs/libwinpthread-1-961bf868110e487f28357bd77705bd38.dll": "961bf868110e487f28357bd77705bd38701fe503b3ab80f5c65fb3ef80254b36",
+      "pgcore/libs/_pygimli_.pyd": "ca5e4ce39ac455a9bf359a86b6830a70d20701aa7a270c999b6a7b0dd958852b"
+    },
+    "equation_residual": "unavailable",
+    "reference_constraints": "unavailable"
+  },
+  "geometry": {
+    "cells": 23328,
+    "nodes": 101269,
+    "nodes_per_cell": 20,
+    "cell_geometry_preserved": true,
+    "exact_sensor_nodes": true,
+    "straddling_cells": 0,
+    "boundary_counts": {
+      "-1": 1296,
+      "-2": 3888
+    },
+    "inherited_materials_trusted": false
+  }
+}
+
+{
+  "status": "started",
+  "identity": {
+    "input_sha256": "e3f8eeb92b5f777e7276b3767d268281921ce86e5371f86f538f6b9f755e05dd",
+    "script_sha256": "fce141363ae7132fb14a58d96c0cdfa902dfe017bf1c7b840fa34c8415b02b52",
+    "source_provenance": {
+      "source_commit": "484bef8",
+      "source_directory": "experiments/ert-p2-contact-comparison/results/2026-10-09",
+      "manifest_indices": [
+        3646,
+        3786
+      ],
+      "manifest_sha256": "0b04f7711ccfb05c920d43e86f5c633d065eaba7e9fb089e6f90c6eca5a62b6a",
+      "original_axis_file_sha256": {
+        "C-x-axis-m.npy": "f5cc982c463f6ab57d02e8257c767801615e47a0749bc6ac626102a2d03a19c3",
+        "C-y-axis-m.npy": "f5cc982c463f6ab57d02e8257c767801615e47a0749bc6ac626102a2d03a19c3",
+        "C-z-axis-m.npy": "ae63fa3c4d4a9d12c087b96d67473bf9eb06ee77d1359295554758732c43db4c"
+      }
+    }
+  },
+  "states": {
+    "H": {
+      "status": "completed",
+      "voltage_v": [
+        -0.0006476359420855688,
+        -0.0006476359420855683
+      ],
+      "reference_v": [
+        -0.0006476359420855907,
+        -0.0006476359420855907
+      ],
+      "reference_error_v": [
+        2.190088388420719e-17,
+        2.233456475320139e-17
+      ],
+      "historical_v": [
+        -0.0006476359420855688,
+        -0.0006476359420855683
+      ],
+      "historical_error_v": [
+        0.0,
+        0.0
+      ],
+      "pair_difference_v": 4.336808689942018e-19,
+      "homogeneous_control_passed": true,
+      "historical_parity_passed": true,
+      "wall_seconds": 9.081027499982156
+    },
+    "C100": {
+      "status": "skipped",
+      "reason": "not reached"
+    }
+  },
+  "state_solve_attempts": 1,
+  "decision": "inconclusive",
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Windows",
+    "gpu_used": false,
+    "versions": {
+      "numpy": "2.5.3",
+      "pygimli": "1.6.1",
+      "pgcore": "1.6.0"
+    },
+    "native_core_version": "libgimli-v1.6.0-4-g9076db0e",
+    "python_reported_version": "0+untagged.14.g1ce4aee",
+    "python_reported_version_role": "separate identifier; may reflect an enclosing checkout",
+    "native_binary_sha256": {
+      "pgcore.libs/libamd-74b7bfc96b1858c4f6bc55266483bf37.dll": "82998ad2fe5b249a335422ecb4dbf81f68cbb95691b057a9c7ca81b545b0e2e5",
+      "pgcore.libs/libboost_python312-mt-x64-5391b62b8ef44f6b17196d4294900d8d.dll": "33fd287e098b50cca62901ed4c702bc5e25a9d3057620874b24b21e5ba3e9b0a",
+      "pgcore.libs/libcamd-939fb6720dca4f50afa075765340e5b7.dll": "30a12d0734b236f4af0ac695a1fe5de4fe69a2d7fd462d6023bfacadea91cbe2",
+      "pgcore.libs/libccolamd-e31f02ca9e59d6ef745eebfdb4189487.dll": "6ca381bc89684766f57653a6896c682eb5e6e61e3cceb23b951beab8e2e88b98",
+      "pgcore.libs/libcholmod-2186579c988f5228870ca77a1c6a94ba.dll": "ad6017cfd81e5f6c61a894f3e07932e03d0837ec57c266141a6f358b40ba0c78",
+      "pgcore.libs/libcolamd-27b6304a0996e100e2cba853d84ed851.dll": "23efad5cb1bb5ab4e0e482d792e202b85023f6ddc670d2c8eab1368fab4cdab5",
+      "pgcore.libs/libgcc_s_seh-1-062e9b97f52750e63ae1e2dc11e321eb.dll": "48efc848b9191c23f80adae4f1d703eb66cf79a1652e0dbb1b5a54e13d728064",
+      "pgcore.libs/libgfortran-5-f089b6e4f06297d8cb2182619660b62f.dll": "f7d4c15f560dcdbdc8c547fb91179a09737e23f9eccf6b91554a47ef96b64749",
+      "pgcore.libs/libgimli-f14a68e596e57256f077e9fd6d3d30ad.dll": "05f5c17107470e3dc997c4feac8ae664e982059660bebabad779bf4b852457fe",
+      "pgcore.libs/libgomp-1-c242f45e6814d25ee06ba72f03ac251f.dll": "42fee8040fd21e67e4e4ce06e625065d8fef79efbce5ecf0299cef4af00b381c",
+      "pgcore.libs/libopenblas-0c38504e26f65923edd995b48f3b880c.dll": "d3156c30e9bea30fcbe6020e4d6ba61134db7d1cdb322f0542506ec72b63e5d8",
+      "pgcore.libs/libquadmath-0-4475696678d6279c6f2c8ec45a7fc1a9.dll": "8f72abb28837f3c839a487ccc319fba95515954222a8b42814652534d62f699d",
+      "pgcore.libs/libstdc++-6-f1b125c1d7464da4ad6f2fcaf2d6e7b3.dll": "364e3ebe93f2fd596e0f12919439a79b5b5f6c78a1d5a40b7089ecee2a7b4260",
+      "pgcore.libs/libsuitesparseconfig-22c1a79cc0e765e4a55414fd8e114d3d.dll": "9dbcb916641a2012f10fd3dfe9cc4129382fc965f6550be942bdbc974bb191cb",
+      "pgcore.libs/libumfpack-c51edc2817e5f3c25d0ca393df3b0762.dll": "4383ca87ce45b48d7b787b54b6b9a811576160d1dcdeb126611983eb083af156",
+      "pgcore.libs/libwinpthread-1-961bf868110e487f28357bd77705bd38.dll": "961bf868110e487f28357bd77705bd38701fe503b3ab80f5c65fb3ef80254b36",
+      "pgcore/libs/_pygimli_.pyd": "ca5e4ce39ac455a9bf359a86b6830a70d20701aa7a270c999b6a7b0dd958852b"
+    },
+    "equation_residual": "unavailable",
+    "reference_constraints": "unavailable"
+  },
+  "geometry": {
+    "cells": 23328,
+    "nodes": 101269,
+    "nodes_per_cell": 20,
+    "cell_geometry_preserved": true,
+    "exact_sensor_nodes": true,
+    "straddling_cells": 0,
+    "boundary_counts": {
+      "-1": 1296,
+      "-2": 3888
+    },
+    "inherited_materials_trusted": false
+  }
+}
+
+{
+  "status": "started",
+  "identity": {
+    "input_sha256": "e3f8eeb92b5f777e7276b3767d268281921ce86e5371f86f538f6b9f755e05dd",
+    "script_sha256": "fce141363ae7132fb14a58d96c0cdfa902dfe017bf1c7b840fa34c8415b02b52",
+    "source_provenance": {
+      "source_commit": "484bef8",
+      "source_directory": "experiments/ert-p2-contact-comparison/results/2026-10-09",
+      "manifest_indices": [
+        3646,
+        3786
+      ],
+      "manifest_sha256": "0b04f7711ccfb05c920d43e86f5c633d065eaba7e9fb089e6f90c6eca5a62b6a",
+      "original_axis_file_sha256": {
+        "C-x-axis-m.npy": "f5cc982c463f6ab57d02e8257c767801615e47a0749bc6ac626102a2d03a19c3",
+        "C-y-axis-m.npy": "f5cc982c463f6ab57d02e8257c767801615e47a0749bc6ac626102a2d03a19c3",
+        "C-z-axis-m.npy": "ae63fa3c4d4a9d12c087b96d67473bf9eb06ee77d1359295554758732c43db4c"
+      }
+    }
+  },
+  "states": {
+    "H": {
+      "status": "completed",
+      "voltage_v": [
+        -0.0006476359420855688,
+        -0.0006476359420855683
+      ],
+      "reference_v": [
+        -0.0006476359420855907,
+        -0.0006476359420855907
+      ],
+      "reference_error_v": [
+        2.190088388420719e-17,
+        2.233456475320139e-17
+      ],
+      "historical_v": [
+        -0.0006476359420855688,
+        -0.0006476359420855683
+      ],
+      "historical_error_v": [
+        0.0,
+        0.0
+      ],
+      "pair_difference_v": 4.336808689942018e-19,
+      "homogeneous_control_passed": true,
+      "historical_parity_passed": true,
+      "wall_seconds": 9.081027499982156
+    },
+    "C100": {
+      "status": "attempted"
+    }
+  },
+  "state_solve_attempts": 2,
+  "decision": "inconclusive",
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Windows",
+    "gpu_used": false,
+    "versions": {
+      "numpy": "2.5.3",
+      "pygimli": "1.6.1",
+      "pgcore": "1.6.0"
+    },
+    "native_core_version": "libgimli-v1.6.0-4-g9076db0e",
+    "python_reported_version": "0+untagged.14.g1ce4aee",
+    "python_reported_version_role": "separate identifier; may reflect an enclosing checkout",
+    "native_binary_sha256": {
+      "pgcore.libs/libamd-74b7bfc96b1858c4f6bc55266483bf37.dll": "82998ad2fe5b249a335422ecb4dbf81f68cbb95691b057a9c7ca81b545b0e2e5",
+      "pgcore.libs/libboost_python312-mt-x64-5391b62b8ef44f6b17196d4294900d8d.dll": "33fd287e098b50cca62901ed4c702bc5e25a9d3057620874b24b21e5ba3e9b0a",
+      "pgcore.libs/libcamd-939fb6720dca4f50afa075765340e5b7.dll": "30a12d0734b236f4af0ac695a1fe5de4fe69a2d7fd462d6023bfacadea91cbe2",
+      "pgcore.libs/libccolamd-e31f02ca9e59d6ef745eebfdb4189487.dll": "6ca381bc89684766f57653a6896c682eb5e6e61e3cceb23b951beab8e2e88b98",
+      "pgcore.libs/libcholmod-2186579c988f5228870ca77a1c6a94ba.dll": "ad6017cfd81e5f6c61a894f3e07932e03d0837ec57c266141a6f358b40ba0c78",
+      "pgcore.libs/libcolamd-27b6304a0996e100e2cba853d84ed851.dll": "23efad5cb1bb5ab4e0e482d792e202b85023f6ddc670d2c8eab1368fab4cdab5",
+      "pgcore.libs/libgcc_s_seh-1-062e9b97f52750e63ae1e2dc11e321eb.dll": "48efc848b9191c23f80adae4f1d703eb66cf79a1652e0dbb1b5a54e13d728064",
+      "pgcore.libs/libgfortran-5-f089b6e4f06297d8cb2182619660b62f.dll": "f7d4c15f560dcdbdc8c547fb91179a09737e23f9eccf6b91554a47ef96b64749",
+      "pgcore.libs/libgimli-f14a68e596e57256f077e9fd6d3d30ad.dll": "05f5c17107470e3dc997c4feac8ae664e982059660bebabad779bf4b852457fe",
+      "pgcore.libs/libgomp-1-c242f45e6814d25ee06ba72f03ac251f.dll": "42fee8040fd21e67e4e4ce06e625065d8fef79efbce5ecf0299cef4af00b381c",
+      "pgcore.libs/libopenblas-0c38504e26f65923edd995b48f3b880c.dll": "d3156c30e9bea30fcbe6020e4d6ba61134db7d1cdb322f0542506ec72b63e5d8",
+      "pgcore.libs/libquadmath-0-4475696678d6279c6f2c8ec45a7fc1a9.dll": "8f72abb28837f3c839a487ccc319fba95515954222a8b42814652534d62f699d",
+      "pgcore.libs/libstdc++-6-f1b125c1d7464da4ad6f2fcaf2d6e7b3.dll": "364e3ebe93f2fd596e0f12919439a79b5b5f6c78a1d5a40b7089ecee2a7b4260",
+      "pgcore.libs/libsuitesparseconfig-22c1a79cc0e765e4a55414fd8e114d3d.dll": "9dbcb916641a2012f10fd3dfe9cc4129382fc965f6550be942bdbc974bb191cb",
+      "pgcore.libs/libumfpack-c51edc2817e5f3c25d0ca393df3b0762.dll": "4383ca87ce45b48d7b787b54b6b9a811576160d1dcdeb126611983eb083af156",
+      "pgcore.libs/libwinpthread-1-961bf868110e487f28357bd77705bd38.dll": "961bf868110e487f28357bd77705bd38701fe503b3ab80f5c65fb3ef80254b36",
+      "pgcore/libs/_pygimli_.pyd": "ca5e4ce39ac455a9bf359a86b6830a70d20701aa7a270c999b6a7b0dd958852b"
+    },
+    "equation_residual": "unavailable",
+    "reference_constraints": "unavailable"
+  },
+  "geometry": {
+    "cells": 23328,
+    "nodes": 101269,
+    "nodes_per_cell": 20,
+    "cell_geometry_preserved": true,
+    "exact_sensor_nodes": true,
+    "straddling_cells": 0,
+    "boundary_counts": {
+      "-1": 1296,
+      "-2": 3888
+    },
+    "inherited_materials_trusted": false
+  }
+}
+
+{
+  "status": "started",
+  "identity": {
+    "input_sha256": "e3f8eeb92b5f777e7276b3767d268281921ce86e5371f86f538f6b9f755e05dd",
+    "script_sha256": "fce141363ae7132fb14a58d96c0cdfa902dfe017bf1c7b840fa34c8415b02b52",
+    "source_provenance": {
+      "source_commit": "484bef8",
+      "source_directory": "experiments/ert-p2-contact-comparison/results/2026-10-09",
+      "manifest_indices": [
+        3646,
+        3786
+      ],
+      "manifest_sha256": "0b04f7711ccfb05c920d43e86f5c633d065eaba7e9fb089e6f90c6eca5a62b6a",
+      "original_axis_file_sha256": {
+        "C-x-axis-m.npy": "f5cc982c463f6ab57d02e8257c767801615e47a0749bc6ac626102a2d03a19c3",
+        "C-y-axis-m.npy": "f5cc982c463f6ab57d02e8257c767801615e47a0749bc6ac626102a2d03a19c3",
+        "C-z-axis-m.npy": "ae63fa3c4d4a9d12c087b96d67473bf9eb06ee77d1359295554758732c43db4c"
+      }
+    }
+  },
+  "states": {
+    "H": {
+      "status": "completed",
+      "voltage_v": [
+        -0.0006476359420855688,
+        -0.0006476359420855683
+      ],
+      "reference_v": [
+        -0.0006476359420855907,
+        -0.0006476359420855907
+      ],
+      "reference_error_v": [
+        2.190088388420719e-17,
+        2.233456475320139e-17
+      ],
+      "historical_v": [
+        -0.0006476359420855688,
+        -0.0006476359420855683
+      ],
+      "historical_error_v": [
+        0.0,
+        0.0
+      ],
+      "pair_difference_v": 4.336808689942018e-19,
+      "homogeneous_control_passed": true,
+      "historical_parity_passed": true,
+      "wall_seconds": 9.081027499982156
+    },
+    "C100": {
+      "status": "completed",
+      "voltage_v": [
+        -0.05981245281773522,
+        -0.05995124122180487
+      ],
+      "reference_v": [
+        -0.06000386265259415,
+        -0.06000386265259415
+      ],
+      "reference_error_v": [
+        0.00019140983485892854,
+        5.262143078928194e-05
+      ],
+      "historical_v": [
+        -0.05981245281773522,
+        -0.059951241221804834
+      ],
+      "historical_error_v": [
+        0.0,
+        -3.469446951953614e-17
+      ],
+      "pair_difference_v": -0.0001387884040696466,
+      "homogeneous_control_passed": false,
+      "historical_parity_passed": true,
+      "wall_seconds": 8.608386400039308
+    }
+  },
+  "state_solve_attempts": 2,
+  "decision": "inconclusive",
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Windows",
+    "gpu_used": false,
+    "versions": {
+      "numpy": "2.5.3",
+      "pygimli": "1.6.1",
+      "pgcore": "1.6.0"
+    },
+    "native_core_version": "libgimli-v1.6.0-4-g9076db0e",
+    "python_reported_version": "0+untagged.14.g1ce4aee",
+    "python_reported_version_role": "separate identifier; may reflect an enclosing checkout",
+    "native_binary_sha256": {
+      "pgcore.libs/libamd-74b7bfc96b1858c4f6bc55266483bf37.dll": "82998ad2fe5b249a335422ecb4dbf81f68cbb95691b057a9c7ca81b545b0e2e5",
+      "pgcore.libs/libboost_python312-mt-x64-5391b62b8ef44f6b17196d4294900d8d.dll": "33fd287e098b50cca62901ed4c702bc5e25a9d3057620874b24b21e5ba3e9b0a",
+      "pgcore.libs/libcamd-939fb6720dca4f50afa075765340e5b7.dll": "30a12d0734b236f4af0ac695a1fe5de4fe69a2d7fd462d6023bfacadea91cbe2",
+      "pgcore.libs/libccolamd-e31f02ca9e59d6ef745eebfdb4189487.dll": "6ca381bc89684766f57653a6896c682eb5e6e61e3cceb23b951beab8e2e88b98",
+      "pgcore.libs/libcholmod-2186579c988f5228870ca77a1c6a94ba.dll": "ad6017cfd81e5f6c61a894f3e07932e03d0837ec57c266141a6f358b40ba0c78",
+      "pgcore.libs/libcolamd-27b6304a0996e100e2cba853d84ed851.dll": "23efad5cb1bb5ab4e0e482d792e202b85023f6ddc670d2c8eab1368fab4cdab5",
+      "pgcore.libs/libgcc_s_seh-1-062e9b97f52750e63ae1e2dc11e321eb.dll": "48efc848b9191c23f80adae4f1d703eb66cf79a1652e0dbb1b5a54e13d728064",
+      "pgcore.libs/libgfortran-5-f089b6e4f06297d8cb2182619660b62f.dll": "f7d4c15f560dcdbdc8c547fb91179a09737e23f9eccf6b91554a47ef96b64749",
+      "pgcore.libs/libgimli-f14a68e596e57256f077e9fd6d3d30ad.dll": "05f5c17107470e3dc997c4feac8ae664e982059660bebabad779bf4b852457fe",
+      "pgcore.libs/libgomp-1-c242f45e6814d25ee06ba72f03ac251f.dll": "42fee8040fd21e67e4e4ce06e625065d8fef79efbce5ecf0299cef4af00b381c",
+      "pgcore.libs/libopenblas-0c38504e26f65923edd995b48f3b880c.dll": "d3156c30e9bea30fcbe6020e4d6ba61134db7d1cdb322f0542506ec72b63e5d8",
+      "pgcore.libs/libquadmath-0-4475696678d6279c6f2c8ec45a7fc1a9.dll": "8f72abb28837f3c839a487ccc319fba95515954222a8b42814652534d62f699d",
+      "pgcore.libs/libstdc++-6-f1b125c1d7464da4ad6f2fcaf2d6e7b3.dll": "364e3ebe93f2fd596e0f12919439a79b5b5f6c78a1d5a40b7089ecee2a7b4260",
+      "pgcore.libs/libsuitesparseconfig-22c1a79cc0e765e4a55414fd8e114d3d.dll": "9dbcb916641a2012f10fd3dfe9cc4129382fc965f6550be942bdbc974bb191cb",
+      "pgcore.libs/libumfpack-c51edc2817e5f3c25d0ca393df3b0762.dll": "4383ca87ce45b48d7b787b54b6b9a811576160d1dcdeb126611983eb083af156",
+      "pgcore.libs/libwinpthread-1-961bf868110e487f28357bd77705bd38.dll": "961bf868110e487f28357bd77705bd38701fe503b3ab80f5c65fb3ef80254b36",
+      "pgcore/libs/_pygimli_.pyd": "ca5e4ce39ac455a9bf359a86b6830a70d20701aa7a270c999b6a7b0dd958852b"
+    },
+    "equation_residual": "unavailable",
+    "reference_constraints": "unavailable"
+  },
+  "geometry": {
+    "cells": 23328,
+    "nodes": 101269,
+    "nodes_per_cell": 20,
+    "cell_geometry_preserved": true,
+    "exact_sensor_nodes": true,
+    "straddling_cells": 0,
+    "boundary_counts": {
+      "-1": 1296,
+      "-2": 3888
+    },
+    "inherited_materials_trusted": false
+  }
+}
+
+{
+  "status": "completed",
+  "identity": {
+    "input_sha256": "e3f8eeb92b5f777e7276b3767d268281921ce86e5371f86f538f6b9f755e05dd",
+    "script_sha256": "fce141363ae7132fb14a58d96c0cdfa902dfe017bf1c7b840fa34c8415b02b52",
+    "source_provenance": {
+      "source_commit": "484bef8",
+      "source_directory": "experiments/ert-p2-contact-comparison/results/2026-10-09",
+      "manifest_indices": [
+        3646,
+        3786
+      ],
+      "manifest_sha256": "0b04f7711ccfb05c920d43e86f5c633d065eaba7e9fb089e6f90c6eca5a62b6a",
+      "original_axis_file_sha256": {
+        "C-x-axis-m.npy": "f5cc982c463f6ab57d02e8257c767801615e47a0749bc6ac626102a2d03a19c3",
+        "C-y-axis-m.npy": "f5cc982c463f6ab57d02e8257c767801615e47a0749bc6ac626102a2d03a19c3",
+        "C-z-axis-m.npy": "ae63fa3c4d4a9d12c087b96d67473bf9eb06ee77d1359295554758732c43db4c"
+      }
+    }
+  },
+  "states": {
+    "H": {
+      "status": "completed",
+      "voltage_v": [
+        -0.0006476359420855688,
+        -0.0006476359420855683
+      ],
+      "reference_v": [
+        -0.0006476359420855907,
+        -0.0006476359420855907
+      ],
+      "reference_error_v": [
+        2.190088388420719e-17,
+        2.233456475320139e-17
+      ],
+      "historical_v": [
+        -0.0006476359420855688,
+        -0.0006476359420855683
+      ],
+      "historical_error_v": [
+        0.0,
+        0.0
+      ],
+      "pair_difference_v": 4.336808689942018e-19,
+      "homogeneous_control_passed": true,
+      "historical_parity_passed": true,
+      "wall_seconds": 9.081027499982156
+    },
+    "C100": {
+      "status": "completed",
+      "voltage_v": [
+        -0.05981245281773522,
+        -0.05995124122180487
+      ],
+      "reference_v": [
+        -0.06000386265259415,
+        -0.06000386265259415
+      ],
+      "reference_error_v": [
+        0.00019140983485892854,
+        5.262143078928194e-05
+      ],
+      "historical_v": [
+        -0.05981245281773522,
+        -0.059951241221804834
+      ],
+      "historical_error_v": [
+        0.0,
+        -3.469446951953614e-17
+      ],
+      "pair_difference_v": -0.0001387884040696466,
+      "homogeneous_control_passed": false,
+      "historical_parity_passed": true,
+      "wall_seconds": 8.608386400039308
+    }
+  },
+  "state_solve_attempts": 2,
+  "decision": "reproduced",
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Windows",
+    "gpu_used": false,
+    "versions": {
+      "numpy": "2.5.3",
+      "pygimli": "1.6.1",
+      "pgcore": "1.6.0"
+    },
+    "native_core_version": "libgimli-v1.6.0-4-g9076db0e",
+    "python_reported_version": "0+untagged.14.g1ce4aee",
+    "python_reported_version_role": "separate identifier; may reflect an enclosing checkout",
+    "native_binary_sha256": {
+      "pgcore.libs/libamd-74b7bfc96b1858c4f6bc55266483bf37.dll": "82998ad2fe5b249a335422ecb4dbf81f68cbb95691b057a9c7ca81b545b0e2e5",
+      "pgcore.libs/libboost_python312-mt-x64-5391b62b8ef44f6b17196d4294900d8d.dll": "33fd287e098b50cca62901ed4c702bc5e25a9d3057620874b24b21e5ba3e9b0a",
+      "pgcore.libs/libcamd-939fb6720dca4f50afa075765340e5b7.dll": "30a12d0734b236f4af0ac695a1fe5de4fe69a2d7fd462d6023bfacadea91cbe2",
+      "pgcore.libs/libccolamd-e31f02ca9e59d6ef745eebfdb4189487.dll": "6ca381bc89684766f57653a6896c682eb5e6e61e3cceb23b951beab8e2e88b98",
+      "pgcore.libs/libcholmod-2186579c988f5228870ca77a1c6a94ba.dll": "ad6017cfd81e5f6c61a894f3e07932e03d0837ec57c266141a6f358b40ba0c78",
+      "pgcore.libs/libcolamd-27b6304a0996e100e2cba853d84ed851.dll": "23efad5cb1bb5ab4e0e482d792e202b85023f6ddc670d2c8eab1368fab4cdab5",
+      "pgcore.libs/libgcc_s_seh-1-062e9b97f52750e63ae1e2dc11e321eb.dll": "48efc848b9191c23f80adae4f1d703eb66cf79a1652e0dbb1b5a54e13d728064",
+      "pgcore.libs/libgfortran-5-f089b6e4f06297d8cb2182619660b62f.dll": "f7d4c15f560dcdbdc8c547fb91179a09737e23f9eccf6b91554a47ef96b64749",
+      "pgcore.libs/libgimli-f14a68e596e57256f077e9fd6d3d30ad.dll": "05f5c17107470e3dc997c4feac8ae664e982059660bebabad779bf4b852457fe",
+      "pgcore.libs/libgomp-1-c242f45e6814d25ee06ba72f03ac251f.dll": "42fee8040fd21e67e4e4ce06e625065d8fef79efbce5ecf0299cef4af00b381c",
+      "pgcore.libs/libopenblas-0c38504e26f65923edd995b48f3b880c.dll": "d3156c30e9bea30fcbe6020e4d6ba61134db7d1cdb322f0542506ec72b63e5d8",
+      "pgcore.libs/libquadmath-0-4475696678d6279c6f2c8ec45a7fc1a9.dll": "8f72abb28837f3c839a487ccc319fba95515954222a8b42814652534d62f699d",
+      "pgcore.libs/libstdc++-6-f1b125c1d7464da4ad6f2fcaf2d6e7b3.dll": "364e3ebe93f2fd596e0f12919439a79b5b5f6c78a1d5a40b7089ecee2a7b4260",
+      "pgcore.libs/libsuitesparseconfig-22c1a79cc0e765e4a55414fd8e114d3d.dll": "9dbcb916641a2012f10fd3dfe9cc4129382fc965f6550be942bdbc974bb191cb",
+      "pgcore.libs/libumfpack-c51edc2817e5f3c25d0ca393df3b0762.dll": "4383ca87ce45b48d7b787b54b6b9a811576160d1dcdeb126611983eb083af156",
+      "pgcore.libs/libwinpthread-1-961bf868110e487f28357bd77705bd38.dll": "961bf868110e487f28357bd77705bd38701fe503b3ab80f5c65fb3ef80254b36",
+      "pgcore/libs/_pygimli_.pyd": "ca5e4ce39ac455a9bf359a86b6830a70d20701aa7a270c999b6a7b0dd958852b"
+    },
+    "equation_residual": "unavailable",
+    "reference_constraints": "unavailable"
+  },
+  "geometry": {
+    "cells": 23328,
+    "nodes": 101269,
+    "nodes_per_cell": 20,
+    "cell_geometry_preserved": true,
+    "exact_sensor_nodes": true,
+    "straddling_cells": 0,
+    "boundary_counts": {
+      "-1": 1296,
+      "-2": 3888
+    },
+    "inherited_materials_trusted": false
+  },
+  "wall_seconds": 21.708127000019886
+}

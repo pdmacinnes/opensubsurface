@@ -29,7 +29,7 @@ jobs:
       - name: Test physical checks and stop behavior
         run: python -m pytest -q
       - name: Lint without diagnostics
-        run: python -m ruff check src tests
+        run: python -m ruff check src tests experiments/pygimli-reflection-reproduction/reproduce.py
       - name: Build package without new dependencies
         run: python -m pip wheel . --no-deps --no-build-isolation --wheel-dir experiments/outputs/package-check
       - name: Verify published profile metrics
