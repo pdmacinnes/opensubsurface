@@ -1,0 +1,137 @@
+{
+  "mesh": "C",
+  "states": {
+    "H": {
+      "status": "completed",
+      "check": {
+        "rms": 2.7397519269560853e-13,
+        "maximum": 2.7755575615628918e-12,
+        "passed": true
+      },
+      "resources": {
+        "wall_seconds": 1.711403299937956,
+        "cpu_seconds": 1.5,
+        "peak_rss_bytes": 1351344128,
+        "sampling_seconds": 0.05
+      },
+      "native_diagnostics": {
+        "input_cells": 23328,
+        "input_nodes": 26011,
+        "operator_cells": 23328,
+        "operator_nodes": 26011,
+        "core_cells": 23328,
+        "core_nodes": 26011,
+        "maximum_relative_equation_residual": "unavailable from this adapter",
+        "primaryMesh": {
+          "status": "unavailable",
+          "exception_type": "AttributeError"
+        },
+        "primaryPotential": {
+          "rows": 64,
+          "columns": 26011
+        }
+      },
+      "worst_manifest_index": 3366,
+      "worst_configuration": [
+        21,
+        56,
+        40,
+        58
+      ]
+    },
+    "C10": {
+      "status": "completed",
+      "check": {
+        "rms": 52.31299144664358,
+        "maximum": 2827.905258244005,
+        "passed": false
+      },
+      "resources": {
+        "wall_seconds": 1.9445342000108212,
+        "cpu_seconds": 1.765625,
+        "peak_rss_bytes": 1354760192,
+        "sampling_seconds": 0.05
+      },
+      "native_diagnostics": {
+        "input_cells": 23328,
+        "input_nodes": 26011,
+        "operator_cells": 23328,
+        "operator_nodes": 26011,
+        "core_cells": 23328,
+        "core_nodes": 26011,
+        "maximum_relative_equation_residual": "unavailable from this adapter",
+        "primaryMesh": {
+          "status": "unavailable",
+          "exception_type": "AttributeError"
+        },
+        "primaryPotential": {
+          "rows": 64,
+          "columns": 26011
+        }
+      },
+      "worst_manifest_index": 3839,
+      "worst_configuration": [
+        30,
+        46,
+        33,
+        38
+      ]
+    },
+    "C100": {
+      "status": "completed",
+      "check": {
+        "rms": 626.1958571103868,
+        "maximum": 33878.86497500242,
+        "passed": false
+      },
+      "resources": {
+        "wall_seconds": 1.8749574000248685,
+        "cpu_seconds": 1.84375,
+        "peak_rss_bytes": 1355149312,
+        "sampling_seconds": 0.05
+      },
+      "native_diagnostics": {
+        "input_cells": 23328,
+        "input_nodes": 26011,
+        "operator_cells": 23328,
+        "operator_nodes": 26011,
+        "core_cells": 23328,
+        "core_nodes": 26011,
+        "maximum_relative_equation_residual": "unavailable from this adapter",
+        "primaryMesh": {
+          "status": "unavailable",
+          "exception_type": "AttributeError"
+        },
+        "primaryPotential": {
+          "rows": 64,
+          "columns": 26011
+        }
+      },
+      "worst_manifest_index": 3839,
+      "worst_configuration": [
+        30,
+        46,
+        33,
+        38
+      ]
+    }
+  },
+  "status": "completed",
+  "worker_wall_seconds": 6.773993200040422,
+  "construction": {
+    "wall_seconds": 1.138312999974005,
+    "cpu_seconds": 1.046875,
+    "peak_rss_bytes": 624676864,
+    "sampling_seconds": 0.05
+  },
+  "geometry_checks": {
+    "straddling_cells": 0,
+    "maximum_electrode_node_error_m": 0.0
+  },
+  "resources": {
+    "wall_seconds": 6.675810299930163,
+    "cpu_seconds": 6.15625,
+    "peak_rss_bytes": 1355149312,
+    "sampling_seconds": 0.05
+  }
+}

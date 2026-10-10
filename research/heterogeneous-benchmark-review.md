@@ -2,6 +2,8 @@
 
 Review date: October 8, 2026, America/Denver. Status: literature and protocol review only. No benchmark implementation or new forward simulation was performed for this review.
 
+Subsequent execution: the user approved the spec on October 9, 2026. The [twelve-state contact study](../experiments/ert-contact-benchmark/results/2026-10-09/RESULTS.md) completed and remains inconclusive. The review below records the reasoning before execution.
+
 **Recommendation:** start with an exact vertical-contact reference, evaluated with the existing three-dimensional pyGIMLi solver. Treat it as a necessary interface and boundary diagnostic. It cannot certify the original sphere responses.
 
 The [completed numerical follow-up](../experiments/ert-numerical-validation/results/2026-10-08/RESULTS.md) found that accurate homogeneous voltages do not establish accurate heterogeneous responses. Its fitted sphere comparisons still fail convergence checks. The next reference must therefore be independent of those meshes and sensitive to conductivity contrasts.

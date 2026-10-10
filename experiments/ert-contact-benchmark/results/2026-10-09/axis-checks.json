@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "contact_on_faces": true,
+  "coarse_nodes_retained": true,
+  "remote_intervals_unchanged_by_core_refinement": true,
+  "inner_intervals_retained_by_extension": true
+}

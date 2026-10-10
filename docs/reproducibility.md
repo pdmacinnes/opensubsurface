@@ -4,6 +4,8 @@ Status: research practice applied to the [first numerical pilot record](../exper
 
 The [numerical validation follow-up](../experiments/ert-numerical-validation/README.md) publishes additional homogeneous voltages, four-geometry mesh comparisons, generated fitted meshes, and a reporting command. Its outcome also remains inconclusive. Successful software checks do not establish inclusion accuracy.
 
+The [exact-contact benchmark](../experiments/ert-contact-benchmark/README.md) adds an independent analytical heterogeneous reference, fixed mesh-axis inputs, and twelve native state solves. Its report recomputes the reference identities and gates from saved data. All contact accuracy gates failed; no sphere-validation claim follows from the software tests.
+
 ## Record each experiment
 
 For an approved experiment, publish:

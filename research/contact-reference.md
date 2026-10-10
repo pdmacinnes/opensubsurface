@@ -1,6 +1,6 @@
 # Exact vertical-contact reference
 
-Status: reviewed mathematical definition for a proposed benchmark. No OpenSubsurface implementation or numerical result is claimed here.
+Status: reviewed mathematical definition, now implemented and checked in the [approved contact study](../experiments/ert-contact-benchmark/README.md). The analytical checks pass; all native heterogeneous accuracy checks fail. This note describes the reference rather than claiming accurate native voltages.
 
 The original image solution appears in Van Nostrand and Cook, [Interpretation of resistivity data](https://pubs.usgs.gov/pp/0499/report.pdf), USGS Professional Paper 499, printed pages 52-53, equations 21-23. The notation below places the source in either medium and uses conductivity rather than resistivity.
 

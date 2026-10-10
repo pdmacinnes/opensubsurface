@@ -1,0 +1,22 @@
+{
+  "python": "3.12.14",
+  "platform": "Windows",
+  "machine": "AMD64",
+  "gpu_used": false,
+  "versions": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "pygimli": "1.6.1",
+    "pgcore": "1.6.0",
+    "psutil": "7.2.2"
+  },
+  "thread_limits": {
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2"
+  },
+  "pygimli_runtime_version": "0+untagged.8.gf3686d3",
+  "source_sha256": {
+    "contact.py": "a938713dd9c9079f20db2220832da862be1e74af42f5a6f135e388c78745167b",
+    "solvers.py": "b68bfd22fe1f04ceef7fb821611bda01a53cd9e9532f9baf896809d4ae7f7f80"
+  }
+}

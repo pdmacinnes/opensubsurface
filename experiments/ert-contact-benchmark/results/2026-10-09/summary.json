@@ -1,0 +1,221 @@
+{
+  "scientific_status": "inconclusive",
+  "native_state_solve_attempts": 12,
+  "completed_states": 12,
+  "accounted_worker_seconds": 650.7129683000967,
+  "development_allowance_seconds": 600.0,
+  "worker_cap_seconds": 7200.0,
+  "peak_rss_gib": 3.6947097778320312,
+  "resource_stop": false,
+  "reference_checks_passed": true,
+  "state_errors": [
+    {
+      "mesh": "A",
+      "state": "H",
+      "status": "completed",
+      "rms": 2.7104660057921636e-13,
+      "maximum": 2.6645352591003757e-12,
+      "passed": true
+    },
+    {
+      "mesh": "A",
+      "state": "C10",
+      "status": "completed",
+      "rms": 52.28800622862042,
+      "maximum": 2827.8487381299715,
+      "passed": false
+    },
+    {
+      "mesh": "A",
+      "state": "C100",
+      "status": "completed",
+      "rms": 625.9219713764342,
+      "maximum": 33878.1878528443,
+      "passed": false
+    },
+    {
+      "mesh": "B",
+      "state": "H",
+      "status": "completed",
+      "rms": 8.055111212881201e-13,
+      "maximum": 5.386284067043973e-12,
+      "passed": true
+    },
+    {
+      "mesh": "B",
+      "state": "C10",
+      "status": "completed",
+      "rms": 10.449837422026853,
+      "maximum": 553.9451623733996,
+      "passed": false
+    },
+    {
+      "mesh": "B",
+      "state": "C100",
+      "status": "completed",
+      "rms": 125.03502983233307,
+      "maximum": 6636.372737344132,
+      "passed": false
+    },
+    {
+      "mesh": "C",
+      "state": "H",
+      "status": "completed",
+      "rms": 2.7397519269560853e-13,
+      "maximum": 2.7755575615628918e-12,
+      "passed": true
+    },
+    {
+      "mesh": "C",
+      "state": "C10",
+      "status": "completed",
+      "rms": 52.31299144664358,
+      "maximum": 2827.905258244005,
+      "passed": false
+    },
+    {
+      "mesh": "C",
+      "state": "C100",
+      "status": "completed",
+      "rms": 626.1958571103868,
+      "maximum": 33878.86497500242,
+      "passed": false
+    },
+    {
+      "mesh": "D",
+      "state": "H",
+      "status": "completed",
+      "rms": 8.009203031034379e-13,
+      "maximum": 5.042847119765518e-12,
+      "passed": true
+    },
+    {
+      "mesh": "D",
+      "state": "C10",
+      "status": "completed",
+      "rms": 10.441376738871682,
+      "maximum": 554.0018235310023,
+      "passed": false
+    },
+    {
+      "mesh": "D",
+      "state": "C100",
+      "status": "completed",
+      "rms": 124.94258911376069,
+      "maximum": 6637.051549232359,
+      "passed": false
+    }
+  ],
+  "controlled_comparisons": [
+    {
+      "first": "A",
+      "second": "B",
+      "factor": "core resolution",
+      "state": "H",
+      "rms": 7.126998742721633e-13,
+      "maximum": 5.869399232649029e-12,
+      "passed": true
+    },
+    {
+      "first": "A",
+      "second": "B",
+      "factor": "core resolution",
+      "state": "C10",
+      "rms": 42.002900005017096,
+      "maximum": 2273.9035757565716,
+      "passed": false
+    },
+    {
+      "first": "A",
+      "second": "B",
+      "factor": "core resolution",
+      "state": "C100",
+      "rms": 502.77571675325277,
+      "maximum": 27241.81511550017,
+      "passed": false
+    },
+    {
+      "first": "C",
+      "second": "D",
+      "factor": "core resolution",
+      "state": "H",
+      "rms": 7.049746541182153e-13,
+      "maximum": 5.869399232649029e-12,
+      "passed": true
+    },
+    {
+      "first": "C",
+      "second": "D",
+      "factor": "core resolution",
+      "state": "C10",
+      "rms": 42.0028631384555,
+      "maximum": 2273.9034347130028,
+      "passed": false
+    },
+    {
+      "first": "C",
+      "second": "D",
+      "factor": "core resolution",
+      "state": "C100",
+      "rms": 502.77531713417073,
+      "maximum": 27241.813425770062,
+      "passed": false
+    },
+    {
+      "first": "A",
+      "second": "C",
+      "factor": "extent",
+      "state": "H",
+      "rms": 7.587667024864542e-14,
+      "maximum": 1.7568325168085604e-12,
+      "passed": true
+    },
+    {
+      "first": "A",
+      "second": "C",
+      "factor": "extent",
+      "state": "C10",
+      "rms": 0.9932947266708392,
+      "maximum": 11.243636508815968,
+      "passed": false
+    },
+    {
+      "first": "A",
+      "second": "C",
+      "factor": "extent",
+      "state": "C100",
+      "rms": 11.513664136074093,
+      "maximum": 129.74746768329743,
+      "passed": false
+    },
+    {
+      "first": "B",
+      "second": "D",
+      "factor": "extent",
+      "state": "H",
+      "rms": 9.032180807575082e-14,
+      "maximum": 1.2556321140378608e-12,
+      "passed": true
+    },
+    {
+      "first": "B",
+      "second": "D",
+      "factor": "extent",
+      "state": "C10",
+      "rms": 0.9943963166654397,
+      "maximum": 11.250731931528517,
+      "passed": false
+    },
+    {
+      "first": "B",
+      "second": "D",
+      "factor": "extent",
+      "state": "C100",
+      "rms": 11.52640115320975,
+      "maximum": 129.82939549456128,
+      "passed": false
+    }
+  ],
+  "sphere_accuracy": "unverified",
+  "cross_library_agreement": "not tested"
+}
