@@ -334,6 +334,66 @@ Hyvönen, N., Jääskeläinen, A., Maity, R., and Vavilov, A. (2023 preprint).
 
 Reviewed author abstract describing offline and adaptive A-optimal electrode-placement methods. This is related prior art rather than a field geophysics result.
 
+### R40. Interpretation of resistivity data
+
+Van Nostrand, R. G., and Cook, K. L. (1966). USGS Professional Paper 499. DOI: 10.3133/pp499.
+
+[Original report and publication record](https://pubs.usgs.gov/publication/pp499)
+
+Reviewed original printed pages 52-53 and rendered equations 21-23 for the exact vertical-contact reference. Reviewed selected sphere discussions on pages 25 and 248-249. These selected pages do not establish a verified finite-contrast sphere implementation.
+
+### R41. Three-dimensional DC resistivity forward modelling using finite elements in comparison with finite-difference solutions
+
+Li, Y., and Spitzer, K. (2002). Geophysical Journal International, 151, 924-934. DOI: 10.1046/j.1365-246X.2002.01819.x.
+
+[Original publisher record](https://doi.org/10.1046/j.1365-246X.2002.01819.x)
+
+Reviewed original-paper sections on primary/secondary potentials, interface continuity, and boundary effects. Used to motivate separate numerical factors, not to diagnose OpenSubsurface's specific failure.
+
+### R42. 2.5-D DC resistivity modeling by adaptive finite-element method with unstructured triangulation
+
+Tang, J.-T., Wang, F.-Y., and Ren, Z.-Y. (2010). Chinese Journal of Geophysics, 53(3), 708-716. DOI: 10.3969/j.issn.0001-5733.2010.03.026.
+
+[Original article](https://html.rhhz.net/dqwlxb/2010-03-26.htm)
+
+Reviewed section 4.1 on an analytical vertical-contact benchmark. Its 2.5D implementation and survey differ from the proposed OpenSubsurface test.
+
+### R43. 3D modelling and sensitivity in DC resistivity using charge density
+
+Boulanger, O., and Chouteau, M. (2005). Geophysical Prospecting, 53(4), 579-617. DOI: 10.1111/j.1365-2478.2005.00484.x.
+
+[Publisher abstract](https://doi.org/10.1111/j.1365-2478.2005.00484.x)
+
+Reviewed the abstract's comparisons against analytical layered and contact models. No runnable code from this paper was obtained or executed.
+
+### R44. A goal-oriented adaptive finite-element approach for multi-electrode resistivity system
+
+Ren, Z., and Tang, J. (2014). Geophysical Journal International, 199(1), 136-145. DOI: 10.1093/gji/ggu245.
+
+[Original article](https://doi.org/10.1093/gji/ggu245)
+
+Reviewed formulation and section 3.2's finite-contrast sphere benchmark. The numerical reference cited there still needs an implementation and error audit for our geometry.
+
+### R45. 3D direct current resistivity modeling with unstructured mesh by adaptive finite-element method
+
+Ren, Z., and Tang, J. (2010). Geophysics, 75(1), H7-H17. DOI: 10.1190/1.3298690.
+
+[Original paper identifier](https://doi.org/10.1190/1.3298690), [institutional bibliographic record](https://folia.unifr.ch/global/documents/65910)
+
+Reviewed metadata and indexed original-paper excerpts. The cited SEG software URL could not be retrieved in this review; no full code or raw arrays were reproduced.
+
+### R46. Geoana ElectrostaticSphere
+
+[Upstream analytical documentation](https://geoana.simpeg.xyz/api/generated/geoana.em.static.ElectrostaticSphere.html)
+
+Reviewed documentation and installed 0.8.1 source. The uniform-field whole-space solution does not represent a buried sphere excited by surface point electrodes.
+
+### R47. SimPEG layered DC formulation
+
+[Upstream source](https://github.com/simpeg/simpeg/blob/main/simpeg/electromagnetics/static/resistivity/simulation_1d.py)
+
+Reviewed source and the installed 0.25.2 digital-filter interface. A numerical transform result needs error checks before use as an independent reference.
+
 ## Before asserting novelty
 
 Follow citations and citing papers for task-specific acquisition, nonlinear model discrimination, nuisance-aware survey design, and adaptive uncertainty estimation.
